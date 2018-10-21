@@ -1,39 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b563f671-bca3-4892-abd7-f68ddcc2fa96" name="Default Changelist" comment="Added Akka actorsystem and maven dagger dependencies. Began implementing iterable circular FIFO for history.">
-      <change afterPath="$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/modules/ActorSystemModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/polling/actors/SitePollingActor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/polling/messages/PingResponseMsg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/polling/messages/RequestResponseHistoryMsg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/polling/utils/TimeoutPair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/bc/common/properties/SysProps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/bc/core/app/modules/NetMonitorComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b563f671-bca3-4892-abd7-f68ddcc2fa96" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetMonitor.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/actorsystem/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/actors/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actorsystem/src/main/java/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/actors/src/main/java/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actorsystem/src/main/java/polling/actors/SitePingActor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/actorsystem/src/main/java/polling/utils/NetPing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/properties/ActorNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/bc/common/properties/ActorNames.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/properties/ActorPaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/bc/common/properties/ActorPaths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/app/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/bc/core/app/Start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/app/modules/CreateActorSystem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/app/Start.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/src/main/java/modules/ServerModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/http/src/main/java/com/bc/http/modules/ServerModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/src/main/java/resource/NetResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/http/src/main/java/com/bc/http/resource/NetResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/target/classes/modules/ServerModule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/target/classes/resource/NetResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/http/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/http/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/bc/core/app/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/bc/core/app/Start.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -151,12 +123,13 @@
         <counts>
           <entry key="dummy" value="22" />
           <entry key="java" value="896" />
+          <entry key="txt" value="129" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="896" />
-          <entry key="PLAIN_TEXT" value="22" />
+          <entry key="PLAIN_TEXT" value="151" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -220,11 +193,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bc/core/app/modules/NetMonitorComponent.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -232,11 +205,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bc/core/app/Start.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+            <state relative-caret-position="120">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -317,10 +290,10 @@
         <option value="$PROJECT_DIR$/core/src/main/java/com/bc/core/app/modules/NetMonitorApp.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/bc/common/properties/modules/ActorSystemComponent.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/bc/common/properties/modules/ActorSystemModule.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/bc/core/app/Start.java" />
         <option value="$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/modules/ActorSystemModule.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/bc/core/app/modules/NetMonitorComponent.java" />
         <option value="$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/StartActorSystem.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/bc/core/app/Start.java" />
       </list>
     </option>
   </component>
@@ -524,7 +497,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540165171459" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540165854227" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -587,7 +560,7 @@
       <workItem from="1540059822038" duration="15288000" />
       <workItem from="1540076087892" duration="13188000" />
       <workItem from="1540097297740" duration="19271000" />
-      <workItem from="1540155565459" duration="4778000" />
+      <workItem from="1540155565459" duration="5082000" />
     </task>
     <task id="LOCAL-00001" summary="Added module. Checking Jenkins build.">
       <created>1540081790407</created>
@@ -596,17 +569,24 @@
       <option name="project" value="LOCAL" />
       <updated>1540081790408</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finished SitePollingAct to ping websites at an interval. App now starts with datte.">
+      <created>1540165799352</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1540165799352</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52525000" />
+    <option name="totallyTimeSpent" value="52829000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2238806" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2238806" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -615,7 +595,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26681128" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44902387" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -680,7 +660,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added module. Checking Jenkins build." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added module. Checking Jenkins build." />
+    <MESSAGE value="Finished SitePollingAct to ping websites at an interval. App now starts with datte." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished SitePollingAct to ping websites at an interval. App now starts with datte." />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -702,6 +683,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -709,6 +697,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="41" selection-start-column="41" selection-end-column="41" />
+          <folding>
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -749,16 +747,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="43" column="56" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bc/core/app/Start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -806,7 +794,17 @@
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bc/core/app/modules/NetMonitorComponent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bc/core/app/Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

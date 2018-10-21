@@ -19,7 +19,6 @@ public class Start implements NetMonitorComponent {
     }
 
     @Provides
-    @Inject
     public boolean NetApp(){
         System.out.println("Starting NetMonitor app");
         System.out.println("Starting actors");
