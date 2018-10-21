@@ -1,5 +1,7 @@
 package app;
 
+import akka.actor.ActorSystem;
+import app.modules.CreateActorSystem;
 import modules.ServerModule;
 import org.glassfish.grizzly.http.server.HttpServer;
 
@@ -14,6 +16,9 @@ public class Start {
 
     public static void main(String[] args) throws IOException {
        HttpServer server = ServerModule.getServer();
+        ActorSystem system = CreateActorSystem.actorSystem();
+       server.start();
+
     }
 
     private static void NetApp(HttpServer server) throws IOException{
