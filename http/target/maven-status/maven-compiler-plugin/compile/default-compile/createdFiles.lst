@@ -1,2 +1,2 @@
-resource\NetResource.class
-modules\ServerModule.class
+com\bc\http\resource\NetResource.class
+com\bc\http\modules\ServerModule.class

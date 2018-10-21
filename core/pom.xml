@@ -22,7 +22,7 @@
         </dependency>
         <dependency>
             <groupId>com.blamecalifornia</groupId>
-            <artifactId>actorsystem</artifactId>
+            <artifactId>actors</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
@@ -32,16 +32,15 @@
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
-        <dependency>
-            <groupId>com.blamecalifornia</groupId>
-            <artifactId>common</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
+
         <!-- Dagger -->
         <dependency>
             <groupId>com.google.dagger</groupId>
             <artifactId>dagger</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.google.dagger</groupId>
+            <artifactId>dagger-compiler</artifactId>
         </dependency>
     </dependencies>
 
