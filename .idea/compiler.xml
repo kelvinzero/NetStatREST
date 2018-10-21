@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="core" />
         <module name="http" />
+        <module name="inetstatus" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
