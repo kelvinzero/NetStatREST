@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b563f671-bca3-4892-abd7-f68ddcc2fa96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/bc/core/app/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/bc/core/app/Start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actors/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/actors/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/modules/ActorSystemModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/modules/ActorSystemModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/polling/actors/SitePollingActor.java" beforeDir="false" afterPath="$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/polling/actors/SitePollingActor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actors/src/main/java/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/actors/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/bc/common/properties/ActorNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/bc/common/properties/ActorNames.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/bc/common/properties/ActorPaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/bc/common/properties/ActorPaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/bc/core/app/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/bc/core/app/NetApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/bc/core/app/modules/NetMonitorComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/bc/core/app/modules/NetMonitorComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -122,26 +132,32 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="22" />
-          <entry key="java" value="896" />
+          <entry key="java" value="1282" />
+          <entry key="properties" value="150" />
           <entry key="txt" value="129" />
+          <entry key="xml" value="77" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="896" />
+          <entry key="JAVA" value="1282" />
           <entry key="PLAIN_TEXT" value="151" />
+          <entry key="Properties" value="150" />
+          <entry key="XML" value="77" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="7" />
-          <entry key="xml" value="2" />
+          <entry key="java" value="11" />
+          <entry key="properties" value="3" />
+          <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="7" />
-          <entry key="XML" value="2" />
+          <entry key="JAVA" value="11" />
+          <entry key="Properties" value="3" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
     </session>
@@ -149,37 +165,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/pom.xml">
+        <entry file="file://$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/modules/ActorSystemModule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="721">
-              <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/bc/common/properties/SysProps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/polling/actors/SitePollingActor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="43" column="56" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
+            <state relative-caret-position="35">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -187,8 +176,58 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/actors/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+            <state relative-caret-position="279">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bc/core/app/NetApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#590#591#0" expanded="true" />
+                <element signature="e#654#655#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/polling/actors/SitePollingActor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="24" column="24" selection-start-line="24" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/actors/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/bc/common/properties/ActorNames.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -196,20 +235,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bc/core/app/modules/NetMonitorComponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bc/core/app/Start.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -238,6 +265,7 @@
       <find>bind</find>
       <find>ActorRef</find>
       <find>int</find>
+      <find>Logger</find>
     </findStrings>
     <replaceStrings>
       <replace>ActorContext</replace>
@@ -282,18 +310,23 @@
         <option value="$PROJECT_DIR$/actorsystem/src/main/java/com/bc/actorsystem/polling/messages/PingResponseMsg.java" />
         <option value="$PROJECT_DIR$/actorsystem/src/main/java/com/bc/actorsystem/polling/actors/SitePollingActor.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/bc/common/properties/modules/CreateActorSystem.java" />
-        <option value="$PROJECT_DIR$/common/pom.xml" />
-        <option value="$PROJECT_DIR$/actors/pom.xml" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/bc/common/properties/modules/ActorSystemInterface.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/core/pom.xml" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/bc/core/app/modules/NetMonitorApp.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/bc/common/properties/modules/ActorSystemComponent.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/bc/common/properties/modules/ActorSystemModule.java" />
-        <option value="$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/modules/ActorSystemModule.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/bc/core/app/modules/NetMonitorComponent.java" />
         <option value="$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/StartActorSystem.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/bc/core/app/Start.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/bc/core/app/modules/NetMonitorComponent.java" />
+        <option value="$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/modules/ActorSystemModule.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/bc/common/properties/ActorNames.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/actors/pom.xml" />
+        <option value="$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/polling/actors/SitePollingActor.java" />
+        <option value="$PROJECT_DIR$/actors/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/core/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/bc/core/app/NetApp.java" />
       </list>
     </option>
   </component>
@@ -332,8 +365,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
+    <option name="x" value="261" />
+    <option name="y" value="-25" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -395,7 +428,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="actorsystem" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="polling" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NetMonitor" type="b2602c69:ProjectViewProjectNode" />
@@ -406,41 +439,20 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="actorsystem" type="462c0819:PsiDirectoryNode" />
               <item name="polling" type="462c0819:PsiDirectoryNode" />
+              <item name="actors" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NetMonitor" type="b2602c69:ProjectViewProjectNode" />
               <item name="NetMonitor" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NetMonitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NetMonitor" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NetMonitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NetMonitor" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="actors" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NetMonitor" type="b2602c69:ProjectViewProjectNode" />
               <item name="NetMonitor" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NetMonitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NetMonitor" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="properties" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NetMonitor" type="b2602c69:ProjectViewProjectNode" />
@@ -476,16 +488,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NetMonitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NetMonitor" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -497,17 +499,21 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540165854227" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540231245392" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="Z:\projects\NetMonitor\core\src\main\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="Z:\projects\NetMonitor\actors\src\main\resources" />
       <recent name="C:\Users\Kelvinzero\IdeaProjects\NetMonitor\actorsystem\src\main\java" />
       <recent name="C:\Users\Kelvinzero\IdeaProjects\NetMonitor\actorsystem\src\main\java\polling" />
       <recent name="C:\Users\Kelvinzero\IdeaProjects\NetMonitor\actorsystem" />
@@ -526,10 +532,10 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="NetApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.bc.core.app.Start" />
+      <option name="MAIN_CLASS_NAME" value="com.bc.core.app.NetApp" />
       <module name="core" />
       <extension name="coverage">
         <pattern>
@@ -543,7 +549,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Start" />
+        <item itemvalue="Application.NetApp" />
       </list>
     </recent_temporary>
   </component>
@@ -560,7 +566,7 @@
       <workItem from="1540059822038" duration="15288000" />
       <workItem from="1540076087892" duration="13188000" />
       <workItem from="1540097297740" duration="19271000" />
-      <workItem from="1540155565459" duration="5082000" />
+      <workItem from="1540155565459" duration="12915000" />
     </task>
     <task id="LOCAL-00001" summary="Added module. Checking Jenkins build.">
       <created>1540081790407</created>
@@ -576,11 +582,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540165799352</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finished SitePollingAct to ping websites at an interval. App now starts with datte.">
+      <created>1540166044998</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1540166044998</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52829000" />
+    <option name="totallyTimeSpent" value="60662000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -604,7 +617,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286334" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -673,9 +686,7 @@
     <entry file="file://$PROJECT_DIR$/inet-status/src/main/java/polling.java" />
     <entry file="file://$PROJECT_DIR$/http/src/main/java/com/bc/http/resource/NetResource.java" />
     <entry file="file://$PROJECT_DIR$/http/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/bc/common/properties/ActorNames.java" />
     <entry file="file://$PROJECT_DIR$/common/src/log4j.properties" />
-    <entry file="file://$PROJECT_DIR$/actors/src/main/java/log4j.properties" />
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/bc/common/properties/ActorPaths.java" />
     <entry file="file://$PROJECT_DIR$/actorsystem/src/main/java/polling/utils/CircularLIFO.java" />
     <entry file="file://$PROJECT_DIR$/actorsystem/src/main/java/com/bc/actorsystem/polling/utils/NetPing.java" />
@@ -722,38 +733,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
-          <caret line="99" selection-start-line="99" selection-end-line="102" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="721">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/polling/actors/SitePollingActor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="43" column="56" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/modules/ActorSystemComponent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/StartActorSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bc/core/app/modules/NetMonitorComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -767,46 +767,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/modules/ActorSystemModule.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/bc/common/properties/ActorNames.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actors/src/main/resources.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="39" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/actors/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        <state relative-caret-position="279">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/StartActorSystem.java">
+    <entry file="file://$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/polling/actors/SitePollingActor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        <state relative-caret-position="119">
+          <caret line="24" column="24" selection-start-line="24" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bc/core/app/modules/NetMonitorComponent.java">
+    <entry file="file://$PROJECT_DIR$/core/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="613">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" selection-start-line="15" selection-start-column="7" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/modules/ActorSystemModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actors/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bc/core/app/NetApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bc/core/app/Start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -828,7 +862,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring</last-edited>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -876,7 +910,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <last-edited>Maven: com.google.code.findbugs:jsr305:1.3.9</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

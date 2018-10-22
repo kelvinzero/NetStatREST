@@ -42,8 +42,7 @@ public class SitePollingActor extends AbstractActor{
     public SitePollingActor(){
         responses = new CircularFifoQueue<>(HISTORY_SIZE);
         timeouts = new CircularFifoQueue<>(HISTORY_SIZE );
-        LOG.debug("Created actor SitePollingActor");
-        System.out.println("Created actor SitePollingActor");
+        LOG.info("Started actor SitePollingActor");
     }
 
     @Override
@@ -70,7 +69,7 @@ public class SitePollingActor extends AbstractActor{
             InetAddress pingAddress = InetAddress.getByName(SERVER_IP);
             if(pingAddress.isReachable(5000)){
                 endTime = System.currentTimeMillis();
-                System.out.println(Instant.now().toString() + "  " + (endTime-startTime));
+               LOG.info(Instant.now().toString() + "  " + (endTime-startTime));
                 return endTime-startTime;
             }
         }catch (IOException e){
