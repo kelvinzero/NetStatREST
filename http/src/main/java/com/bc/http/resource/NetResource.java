@@ -10,20 +10,10 @@ public class NetResource {
     @GET
     @Produces("text/html")
     public String getIt() {
+
+        StringBuilder sb = new StringBuilder();
+        sb.append("<h2>Server pints to 8.8.8.8</h2>\n");
+
         return "hello world";
-    }
-
-    @GET
-    @Path("/test")
-    @Produces("text/html")
-    public String test() {
-        return "test";
-    }
-
-    @GET
-    @Path("/test2")
-    @Produces("text/html")
-    public String test2() {
-        return "test2";
     }
 }

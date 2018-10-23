@@ -35,7 +35,7 @@ public class NetApp {
         try {
             server.start();
         }catch (IOException e){
-            System.out.println("Couldn't start HTTP server");
+            LOG.error("Couldn't start HTTP server");
         }
     }
 
