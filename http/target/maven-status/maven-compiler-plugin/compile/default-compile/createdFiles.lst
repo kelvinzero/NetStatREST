@@ -1,2 +1,9 @@
+com\bc\http\modules\DaggerServerComponent.class
+com\bc\http\NMHttpServer_Factory.class
+com\bc\http\resource\NetResource_Factory.class
+com\bc\http\modules\DaggerServerComponent$Builder.class
+com\bc\http\NMHttpServer$2.class
 com\bc\http\resource\NetResource.class
-com\bc\http\modules\ServerModule.class
+com\bc\http\modules\ServerComponent.class
+com\bc\http\NMHttpServer$1.class
+com\bc\http\NMHttpServer.class

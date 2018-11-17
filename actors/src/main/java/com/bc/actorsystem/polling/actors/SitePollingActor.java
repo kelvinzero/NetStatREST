@@ -69,7 +69,6 @@ public class SitePollingActor extends AbstractActor{
             InetAddress pingAddress = InetAddress.getByName(SERVER_IP);
             if(pingAddress.isReachable(5000)){
                 endTime = System.currentTimeMillis();
-               LOG.info(Instant.now().toString() + "  " + (endTime-startTime));
                 return endTime-startTime;
             }
         }catch (IOException e){

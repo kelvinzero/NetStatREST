@@ -1,6 +1,7 @@
 package com.bc.actorsystem.polling.messages;
 
 import akka.actor.ActorRef;
+import akka.actor.dsl.Creators;
 
 import java.io.Serializable;
 import java.time.Instant;
@@ -10,7 +11,11 @@ public class RequestResponseHistoryMsg implements Serializable {
     private Instant ts_start;
     private ActorRef sender;
 
-    public RequestResponseHistoryMsg(ActorRef sender){
+    public static RequestResponseHistoryMsg create(ActorRef sender){
+        return new RequestResponseHistoryMsg(sender);
+    }
+
+    private RequestResponseHistoryMsg(ActorRef sender){
         this.sender = sender;
         ts_start = Instant.now();
     }

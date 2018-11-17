@@ -6,6 +6,7 @@ import akka.actor.ActorSystem;
 import dagger.Module;
 import dagger.Provides;
 
+
 import static com.bc.common.properties.ActorPaths.SYSTEM_NAME;
 
 @Module()

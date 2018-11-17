@@ -7,7 +7,7 @@ public class ActorPaths {
 
 
     public static final String SYSTEM_NAME = "NetStat";
-    private static final String BASE_PATH = String.format("akka://NetMonitor/%s", BASE_ACTOR);
+    private static final String BASE_PATH = String.format("akka://%s/%s", SYSTEM_NAME, BASE_ACTOR);
 
     // actor paths
     public static final String SITEPINGER_ACT_PATH = String.format("%s/%s", BASE_PATH, SITEPOLLING_ACTOR);

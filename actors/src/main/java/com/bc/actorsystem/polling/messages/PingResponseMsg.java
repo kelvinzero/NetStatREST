@@ -25,7 +25,7 @@ public class PingResponseMsg implements Serializable {
     }
 
     public TimeoutPair[] getResponses() {
-        return (TimeoutPair[])responses.toArray();
+        return responses.toArray(new TimeoutPair[responses.size()]);
     }
 
     public ActorContext getSender() {
@@ -38,5 +38,13 @@ public class PingResponseMsg implements Serializable {
 
     public TimeoutPair[] getTimeouts() {
         return (TimeoutPair[])timeouts.toArray();
+    }
+
+    public float getAvg(){
+        long total = 0;
+        for(TimeoutPair timeout : responses){
+            total += timeout.getPing();
+        }
+        return (float)total / responses.size();
     }
 }
