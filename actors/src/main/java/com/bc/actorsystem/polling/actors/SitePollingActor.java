@@ -59,7 +59,9 @@ public class SitePollingActor extends AbstractActor{
 
 
     private void pollServer(){
-        responses.add(new TimeoutPair(Instant.now(), sendPing()));
+        TimeoutPair pair = TimeoutPair.create(Instant.now(), sendPing());
+        if(pair.getPing() != -1)
+            responses.add(pair);
     }
 
     private long sendPing() {
@@ -72,10 +74,10 @@ public class SitePollingActor extends AbstractActor{
                 return endTime-startTime;
             }
         }catch (IOException e){
-            timeouts.add(new TimeoutPair(Instant.now(), -1));
+            timeouts.add(TimeoutPair.create(Instant.now(), -1));
             return -1;
         }
-        timeouts.add(new TimeoutPair(Instant.now(), -1));
+        timeouts.add(TimeoutPair.create(Instant.now(), -1));
         return -1;
     }
 }

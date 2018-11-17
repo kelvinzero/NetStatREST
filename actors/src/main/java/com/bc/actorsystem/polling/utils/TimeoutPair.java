@@ -7,7 +7,11 @@ public class TimeoutPair {
     private Instant time;
     private long ping;
 
-    public TimeoutPair(Instant time, long ping){
+    public static TimeoutPair create(Instant time, long ping){
+        return new TimeoutPair(time, ping);
+    }
+
+    private TimeoutPair(Instant time, long ping){
         this.time = time;
         this.ping = ping;
     }
