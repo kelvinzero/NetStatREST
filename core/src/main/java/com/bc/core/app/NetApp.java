@@ -6,10 +6,8 @@ import com.bc.actorsystem.polling.actors.SitePollingActor;
 import com.bc.core.app.modules.DaggerNetMonitorComponent;
 import com.bc.http.NMHttpServer;
 import org.apache.log4j.Logger;
-import org.glassfish.grizzly.http.server.HttpServer;
 
 import javax.inject.Inject;
-import java.io.IOException;
 
 import static com.bc.common.properties.ActorNames.SITEPOLLING_ACTOR;
 
@@ -25,7 +23,7 @@ public class NetApp {
     @Inject
     public NetApp(
             ActorSystem actorSystem,
-            NMHttpServer httpServer){
+            NMHttpServer httpServer) {
 
         LOG.info("Starting NetMonitor app");
         LOG.info("Starting actors");
@@ -33,7 +31,7 @@ public class NetApp {
         this.httpServer = httpServer;
     }
 
-    public void start(){
+    private void start() {
         LOG.info("Starting HTTP server");
         httpServer.start();
     }

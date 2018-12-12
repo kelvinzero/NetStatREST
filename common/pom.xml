@@ -13,18 +13,6 @@
 
     <dependencies>
 
-        <!-- Log4j -->
-        <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-        </dependency>
-
-        <!-- Dagger -->
-        <dependency>
-            <groupId>com.google.dagger</groupId>
-            <artifactId>dagger</artifactId>
-        </dependency>
-
         <!-- Akka -->
         <dependency>
             <groupId>com.typesafe.akka</groupId>

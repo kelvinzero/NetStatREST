@@ -13,12 +13,9 @@ import scala.concurrent.duration.Duration;
 import java.io.IOException;
 import java.net.InetAddress;
 import java.time.Instant;
-import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
-import static com.bc.common.properties.SysProps.HISTORY_SIZE;
-import static com.bc.common.properties.SysProps.POLLING_DELAY;
-import static com.bc.common.properties.SysProps.SERVER_IP;
+import static com.bc.common.properties.SysProps.*;
 
 public class SitePollingActor extends AbstractActor{
 
