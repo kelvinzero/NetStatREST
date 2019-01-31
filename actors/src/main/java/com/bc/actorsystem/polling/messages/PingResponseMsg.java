@@ -41,10 +41,10 @@ public class PingResponseMsg implements Serializable {
     }
 
     public float getAvg(){
-        long total = 0;
+        float total = 0.0f;
         for(TimeoutPair timeout : responses){
             total += timeout.getPing();
         }
-        return (float)total / responses.size();
+        return total / responses.size();
     }
 }

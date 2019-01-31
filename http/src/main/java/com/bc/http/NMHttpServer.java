@@ -3,6 +3,7 @@ package com.bc.http;
 import com.bc.common.properties.SysProps;
 import com.bc.http.modules.DaggerServerComponent;
 import com.bc.http.modules.ServerComponent;
+import com.bc.http.resource.NetResource;
 import com.google.common.base.Charsets;
 import org.apache.log4j.Logger;
 import org.apache.log4j.lf5.util.StreamUtils;
@@ -62,24 +63,19 @@ public class NMHttpServer {
 
     private ResourceConfig buildResourceConfig() {
         try {
-            ResourceConfig ret = new ResourceConfig();
+            ResourceConfig resourceConfig = new ResourceConfig();
 
-           // ret.packages("com.bc.http.resource");
+           // resourc.packages("com.bc.http.resource");
             final ServerComponent component = DaggerServerComponent.create();
-
-            // Filters
-            //  ret.register(AuthorizationFilter.class);
-
-            // Register interfaces
             PropertyDescriptor[] propertyDescriptors = Introspector.getBeanInfo(ServerComponent.class).getPropertyDescriptors();
             Set<Object> resources = new HashSet<>();
             for (PropertyDescriptor propertyDescriptor : propertyDescriptors) {
                 Object resource = propertyDescriptor.getReadMethod().invoke(component);
-                ret.register(resource);
+                resourceConfig.register(resource);
                 resources.add(resource);
             }
 
-            return ret;
+            return resourceConfig;
         } catch (Exception ex) {
             LOG.error(ex.getMessage(), ex);
         }

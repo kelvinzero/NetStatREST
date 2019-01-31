@@ -46,6 +46,7 @@ public class NetResource {
         PingResponseMsg response = (PingResponseMsg)Await.result(future, timeout.duration());
         int pingCount = response.getResponses().length;
         long pingAvg = 0;
+
         sb.append("<h2>Server points to 8.8.8.8</h2>\n");
         sb.append("<div><div  style=\"display: inline-block\"><table>");
         sb.append("<tr><th>Ping</th><th>Time</th><th>Average ping</th><tr>");
