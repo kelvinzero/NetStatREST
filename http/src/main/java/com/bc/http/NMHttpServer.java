@@ -108,7 +108,10 @@ public class NMHttpServer {
                 response.setContentType(MediaType.TEXT_HTML);
                 response.setContentLength(data == null ? 0 : data.length());
                 response.getWriter().write(data);
+
             }
+
+            ;
         };
     }
 

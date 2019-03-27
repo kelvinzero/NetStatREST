@@ -1,50 +1,57 @@
 package com.bc.actorsystem.polling.messages;
 
 import akka.actor.ActorContext;
-import com.bc.actorsystem.polling.utils.TimeoutPair;
+import com.bc.actorsystem.polling.utils.PingPair;
 import org.apache.commons.collections4.queue.CircularFifoQueue;
 
 import java.io.Serializable;
-import java.util.ArrayList;
+import java.util.Arrays;
 
 public class PingResponseMsg implements Serializable {
 
-    private CircularFifoQueue<TimeoutPair> responses;
-    private CircularFifoQueue<TimeoutPair> timeouts;
+    private CircularFifoQueue<PingPair> responsesQueue;
+    private CircularFifoQueue<PingPair> timeoutsQueue;
     private ActorContext sender;
 
-    public static PingResponseMsg create(CircularFifoQueue<TimeoutPair> responses, CircularFifoQueue<TimeoutPair> timeouts, ActorContext sender){
-       return new PingResponseMsg(responses, timeouts, sender);
+    public static PingResponseMsg create(CircularFifoQueue<PingPair> responsesQueue, CircularFifoQueue<PingPair> timeoutsQueue, ActorContext sender){
+       return new PingResponseMsg(responsesQueue, timeoutsQueue, sender);
     }
-    
 
-    private PingResponseMsg(CircularFifoQueue<TimeoutPair> responses, CircularFifoQueue<TimeoutPair> timeouts, ActorContext sender){
-        this.responses = responses;
-        this.timeouts = timeouts;
+    private PingResponseMsg(CircularFifoQueue<PingPair> responsesQueue, CircularFifoQueue<PingPair> timeoutsQueue, ActorContext sender){
+        this.responsesQueue = responsesQueue;
+        this.timeoutsQueue = timeoutsQueue;
         this.sender = sender;
-    }
-
-    public TimeoutPair[] getResponses() {
-        return responses.toArray(new TimeoutPair[responses.size()]);
     }
 
     public ActorContext getSender() {
         return sender;
     }
 
-    public void setSender(ActorContext sender) {
-        this.sender = sender;
+    public PingPair[] getResponsesArray() {
+        return responsesQueue.toArray(new PingPair[responsesQueue.size()]);
     }
 
-    public TimeoutPair[] getTimeouts() {
-        return (TimeoutPair[])timeouts.toArray();
+    public PingPair[] getTimeoutsArray() {
+        return timeoutsQueue.toArray(new PingPair[timeoutsQueue.size()]);
     }
 
-    public float getAvg(){
-        float total = 0.0f;
-        for(TimeoutPair timeout : responses){
-            total += timeout.getPing();
+    public CircularFifoQueue<PingPair> getResponsesQueue(){
+        return this.responsesQueue;
+    }
+
+    public CircularFifoQueue<PingPair> getTimeoutsQueue(){
+        return this.timeoutsQueue;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if(!obj.getClass().equals(this.getClass()))
+            return false;
+        PingResponseMsg that = (PingResponseMsg) obj;
+        if(Arrays.equals(that.getResponsesArray(), this.getResponsesArray()) &&
+                Arrays.equals(that.getTimeoutsArray(), this.getTimeoutsArray())){
+            return true;
         }
-        return total / responses.size();
+        return false;
     }
 }

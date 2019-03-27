@@ -5,7 +5,7 @@ import akka.actor.AbstractActor;
 import akka.actor.Cancellable;
 import com.bc.actorsystem.polling.messages.PingResponseMsg;
 import com.bc.actorsystem.polling.messages.RequestResponseHistoryMsg;
-import com.bc.actorsystem.polling.utils.TimeoutPair;
+import com.bc.actorsystem.polling.utils.PingPair;
 import org.apache.commons.collections4.queue.CircularFifoQueue;
 import org.apache.log4j.Logger;
 import scala.concurrent.duration.Duration;
@@ -21,8 +21,8 @@ public class SitePollingActor extends AbstractActor{
 
     private final static Logger LOG = Logger.getLogger(SitePollingActor.class);
     private final static String POLL_SERVER = "POLL_SERVER";
-    private CircularFifoQueue<TimeoutPair> responses;
-    private CircularFifoQueue<TimeoutPair> timeouts;
+    private CircularFifoQueue<PingPair> responses;
+    private CircularFifoQueue<PingPair> timeouts;
     private Cancellable checkScheduler;
 
     {
@@ -56,7 +56,7 @@ public class SitePollingActor extends AbstractActor{
 
 
     private void pollServer(){
-        TimeoutPair pair = TimeoutPair.create(Instant.now(), sendPing());
+        PingPair pair = PingPair.create(Instant.now(), sendPing());
         if(pair.getPing() != -1)
             responses.add(pair);
     }
@@ -71,10 +71,10 @@ public class SitePollingActor extends AbstractActor{
                 return endTime-startTime;
             }
         }catch (IOException e){
-            timeouts.add(TimeoutPair.create(Instant.now(), -1));
+            timeouts.add(PingPair.create(Instant.now(), -1));
             return -1;
         }
-        timeouts.add(TimeoutPair.create(Instant.now(), -1));
+        timeouts.add(PingPair.create(Instant.now(), -1));
         return -1;
     }
 }
