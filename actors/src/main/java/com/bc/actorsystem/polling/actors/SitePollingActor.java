@@ -2,15 +2,18 @@ package com.bc.actorsystem.polling.actors;
 
 
 import akka.actor.AbstractActor;
+import akka.actor.ActorSystem;
 import akka.actor.Cancellable;
+import akka.actor.Props;
 import com.bc.actorsystem.polling.messages.PingResponseMsg;
-import com.bc.actorsystem.polling.messages.RequestResponseHistoryMsg;
 import com.bc.actorsystem.polling.utils.PingPair;
+import com.bc.common.properties.ActorPaths;
 import org.apache.commons.collections4.queue.CircularFifoQueue;
 import org.apache.log4j.Logger;
 import scala.concurrent.duration.Duration;
 
 import java.io.IOException;
+import java.io.Serializable;
 import java.net.InetAddress;
 import java.time.Instant;
 import java.util.concurrent.TimeUnit;
@@ -24,6 +27,12 @@ public class SitePollingActor extends AbstractActor{
     private CircularFifoQueue<PingPair> responses;
     private CircularFifoQueue<PingPair> timeouts;
     private Cancellable checkScheduler;
+
+    public static class RequestPingResponseMsg implements Serializable{}
+
+    public static Props props(){
+        return Props.create(SitePollingActor.class, SitePollingActor::new);
+    }
 
     {
         checkScheduler = getContext().getSystem().scheduler().schedule(
@@ -43,14 +52,19 @@ public class SitePollingActor extends AbstractActor{
     }
 
     @Override
+    public void postStop() {
+        checkScheduler.cancel();
+    }
+
+    @Override
     public AbstractActor.Receive createReceive() {
         return receiveBuilder()
-                .match(RequestResponseHistoryMsg.class, this::hangleResponseHistoryRequestMsg)
+                .match(RequestPingResponseMsg.class, this::hangleResponseHistoryRequestMsg)
                 .matchEquals(POLL_SERVER, tc -> pollServer())
                 .build();
     }
 
-    private void hangleResponseHistoryRequestMsg(RequestResponseHistoryMsg msg){
+    private void hangleResponseHistoryRequestMsg(RequestPingResponseMsg msg){
         sender().tell(PingResponseMsg.create(responses, timeouts, context()), self());
     }
 
