@@ -3,8 +3,8 @@ package com.bc.http.resource;
 import akka.actor.ActorSystem;
 import akka.pattern.Patterns;
 import akka.util.Timeout;
+import com.bc.actorsystem.polling.actors.SitePollingActor;
 import com.bc.actorsystem.polling.messages.PingResponseMsg;
-import com.bc.actorsystem.polling.messages.RequestResponseHistoryMsg;
 import com.bc.actorsystem.polling.utils.PingPair;
 import com.bc.common.properties.ActorPaths;
 import dagger.Module;
@@ -37,7 +37,7 @@ public class NetResource {
 
         Timeout timeout = Timeout.durationToTimeout(new FiniteDuration(20, TimeUnit.SECONDS));
         StringBuilder sb = new StringBuilder();
-        Future<Object> future = Patterns.ask(actorSystem.actorSelection(ActorPaths.SITEPINGER_ACT_PATH), RequestResponseHistoryMsg.create(null), timeout);
+        Future<Object> future = Patterns.ask(actorSystem.actorSelection(ActorPaths.SITEPINGER_ACT_PATH), new SitePollingActor.RequestPingResponseMsg(), timeout);
         PingResponseMsg response = (PingResponseMsg)Await.result(future, timeout.duration());
         int pingCount = response.getResponsesArray().length;
         long pingAvg = 0;
