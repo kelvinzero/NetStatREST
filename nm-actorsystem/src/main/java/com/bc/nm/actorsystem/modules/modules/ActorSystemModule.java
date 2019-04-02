@@ -1,4 +1,4 @@
-package actorsystem.modules;
+package com.bc.nm.actorsystem.modules.modules;
 
 import akka.actor.ActorSystem;
 import dagger.Module;

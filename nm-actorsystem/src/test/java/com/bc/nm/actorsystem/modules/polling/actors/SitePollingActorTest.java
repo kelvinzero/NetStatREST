@@ -1,10 +1,10 @@
-package actorsystem.polling.actors;
+package com.bc.nm.actorsystem.modules.polling.actors;
 
-import actorsystem.polling.messages.HistoryResponseMsg;
-import actorsystem.polling.messages.RequestResponseHistoryMsg;
 import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
 import akka.testkit.javadsl.TestKit;
+import com.bc.nm.actorsystem.modules.polling.messages.HistoryResponseMsg;
+import com.bc.nm.actorsystem.modules.polling.messages.RequestResponseHistoryMsg;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;

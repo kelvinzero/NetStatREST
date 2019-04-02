@@ -7,7 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="nm-actorsystem" />
+        <module name="nm-application" />
         <module name="nm-common" />
+        <module name="nm-rest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

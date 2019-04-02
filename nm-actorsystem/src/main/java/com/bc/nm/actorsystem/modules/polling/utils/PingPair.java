@@ -1,4 +1,4 @@
-package actorsystem.polling.utils;
+package com.bc.nm.actorsystem.modules.polling.utils;
 
 import javax.annotation.Nonnull;
 import java.security.InvalidParameterException;

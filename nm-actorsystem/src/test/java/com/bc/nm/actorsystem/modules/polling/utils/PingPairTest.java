@@ -1,4 +1,4 @@
-package actorsystem.polling.utils;
+package com.bc.nm.actorsystem.modules.polling.utils;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 import java.security.InvalidParameterException;
 import java.time.Instant;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class PingPairTest {
 
@@ -29,12 +29,12 @@ class PingPairTest {
 
     @Test
     void getPing(){
-        Assertions.assertEquals(30, pingPair.getPing());
+        assertEquals(30, pingPair.getPing());
     }
 
     @Test
     void getTime(){
-        Assertions.assertEquals(time, pingPair.getTime());
+        assertEquals(time, pingPair.getTime());
     }
 
     @Test
@@ -42,6 +42,6 @@ class PingPairTest {
         Instant now = Instant.now();
         PingPair pairOne = PingPair.create(now, 155);
         PingPair pairTwo = PingPair.create(now, 155);
-        Assertions.assertEquals(pairOne, pairTwo);
+        assertEquals(pairOne, pairTwo);
     }
 }

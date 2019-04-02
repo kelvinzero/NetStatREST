@@ -1,12 +1,12 @@
-package actorsystem.polling.actors;
+package com.bc.nm.actorsystem.modules.polling.actors;
 
 
-import actorsystem.polling.messages.HistoryResponseMsg;
-import actorsystem.polling.messages.RequestResponseHistoryMsg;
-import actorsystem.polling.utils.PingPair;
 import akka.actor.AbstractActor;
 import akka.actor.Cancellable;
 import akka.actor.Props;
+import com.bc.nm.actorsystem.modules.polling.messages.HistoryResponseMsg;
+import com.bc.nm.actorsystem.modules.polling.messages.RequestResponseHistoryMsg;
+import com.bc.nm.actorsystem.modules.polling.utils.PingPair;
 import org.apache.commons.collections4.queue.CircularFifoQueue;
 import org.apache.log4j.Logger;
 import scala.concurrent.duration.Duration;
