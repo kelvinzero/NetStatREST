@@ -1,83 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/pom.xml" line="21" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b563f671-bca3-4892-abd7-f68ddcc2fa96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/actors/src/main/test/com/bc/actorsystem/polling/actors/SitePollingActorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actors/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/actors/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/polling/actors/SitePollingActor.java" beforeDir="false" afterPath="$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/polling/actors/SitePollingActor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/polling/messages/RequestResponseHistoryMsg.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/src/main/java/com/bc/http/resource/NetResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/http/src/main/java/com/bc/http/resource/NetResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e1b65d5c-6ead-4112-b07d-f1993d4406a6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/http/target/" />
     <ignored path="$PROJECT_DIR$/core/target/" />
-    <ignored path="$PROJECT_DIR$/rest/target/" />
-    <ignored path="$PROJECT_DIR$/inet-status/target/" />
-    <ignored path="$PROJECT_DIR$/common/target/" />
-    <ignored path="$PROJECT_DIR$/actorsystem/target/" />
-    <ignored path="$PROJECT_DIR$/actors/target/" />
+    <ignored path="$PROJECT_DIR$/nm-actorsystem/target/" />
+    <ignored path="$PROJECT_DIR$/nm-common/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/polling/messages/PingResponseMsg.java">
+        <entry file="file://$PROJECT_DIR$/nm-common/src/main/java/com/bc/nm/properties/ActorNames.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-214">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="56">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/polling/actors/SitePollingActor.java">
+        <entry file="file://$PROJECT_DIR$/nm-common/src/main/java/com/bc/nm/properties/ActorPaths.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-812">
-              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1124#1125#0" expanded="true" />
-                <element signature="e#1206#1207#0" expanded="true" />
-                <element signature="e#1814#1815#0" expanded="true" />
-                <element signature="e#1853#1854#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/http/src/main/java/com/bc/http/resource/NetResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+            <state>
+              <caret column="28" selection-start-column="8" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,38 +37,29 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/actors/src/main/test/com/bc/actorsystem/polling/actors/SitePollingActorTest.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="36" column="89" selection-start-line="36" selection-start-column="89" selection-end-line="36" selection-end-column="89" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#273#274#0" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#501#502#0" expanded="true" />
-                <element signature="e#546#547#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="420">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/bc/common/properties/ActorPaths.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/nm-common/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/actors/pom.xml">
+        <entry file="file://$PROJECT_DIR$/nm-actorsystem/src/main/java/actorsystem/polling/messages/RequestResponseHistoryMsg.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nm-actorsystem/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="780">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
             </state>
           </provider>
         </entry>
@@ -128,106 +70,32 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="JUnit4 Test Class" />
-        <option value="Arquillian JUnit Test Class" />
         <option value="JUnit5 Test Class" />
       </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>servlet</find>
-      <find>annotat</find>
-      <find>annotation</find>
-      <find>spring-context</find>
-      <find>annot</find>
-      <find>jersey-bom</find>
-      <find>context</find>
-      <find>bind</find>
-      <find>ActorRef</find>
-      <find>int</find>
-      <find>Logger</find>
-      <find>buildResourceConfig</find>
-      <find>test</find>
-      <find>runner</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>ActorContext</replace>
-      <replace>long</replace>
-    </replaceStrings>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/actorsystem/src/main/java/polling/actors/SitePingActor.java" />
-        <option value="$PROJECT_DIR$/actorsystem/src/main/java/com/bc/actorsystem/polling/utils/TimePingPair.java" />
-        <option value="$PROJECT_DIR$/actorsystem/src/main/java/com/bc/actorsystem/polling/utils/Ping.java" />
-        <option value="$PROJECT_DIR$/actorsystem/src/main/java/com/bc/actorsystem/polling/utils/TimeoutPair.java" />
-        <option value="$PROJECT_DIR$/actorsystem/src/main/java/com/bc/actorsystem/polling/messages/RequestPingMsg.java" />
-        <option value="$PROJECT_DIR$/actorsystem/src/main/java/com/bc/actorsystem/polling/actors/SitePingActor.java" />
-        <option value="$PROJECT_DIR$/actorsystem/pom.xml" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/bc/core/app/modules/CreateActorSystem.java" />
-        <option value="$PROJECT_DIR$/actorsystem/src/main/java/com/bc/actorsystem/polling/messages/PingResponseMsg.java" />
-        <option value="$PROJECT_DIR$/actorsystem/src/main/java/com/bc/actorsystem/polling/actors/SitePollingActor.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/bc/common/properties/modules/CreateActorSystem.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/bc/common/properties/modules/ActorSystemInterface.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/bc/core/app/modules/NetMonitorApp.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/bc/common/properties/modules/ActorSystemComponent.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/bc/common/properties/modules/ActorSystemModule.java" />
-        <option value="$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/StartActorSystem.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/bc/core/app/Start.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/bc/common/properties/ActorNames.java" />
-        <option value="$PROJECT_DIR$/actors/src/main/resources/log4j.properties" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
-        <option value="$PROJECT_DIR$/http/src/main/java/com/bc/http/NMHTTPServer.java" />
-        <option value="$PROJECT_DIR$/http/src/main/java/com/bc/http/modules/ServerModule.java" />
-        <option value="$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/modules/ActorSystemModule.java" />
-        <option value="$PROJECT_DIR$/http/src/main/java/com/bc/http/modules/HTTPServerModule.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/bc/core/app/modules/NetMonitorComponent.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/jc/MyClass.java" />
+        <option value="$PROJECT_DIR$/core/src/test/java/com/jc/MyClassTest.java" />
         <option value="$PROJECT_DIR$/core/pom.xml" />
-        <option value="$PROJECT_DIR$/http/pom.xml" />
-        <option value="$PROJECT_DIR$/core/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/bc/core/app/NetApp.java" />
-        <option value="$PROJECT_DIR$/http/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/bc/common/properties/SysProps.java" />
-        <option value="$PROJECT_DIR$/http/src/main/java/com/bc/http/modules/ServerComponent.java" />
-        <option value="$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/polling/messages/PingResponseMsgTest.java" />
-        <option value="$PROJECT_DIR$/actors/src/main/test/com/bc/actorsystem/polling/utils/TimeoutPairTest.java" />
-        <option value="$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/polling/utils/TimeoutPair.java" />
-        <option value="$PROJECT_DIR$/common/pom.xml" />
-        <option value="$PROJECT_DIR$/actors/src/main/test/com/bc/actorsystem/polling/utils/PingResponseTest.java" />
-        <option value="$PROJECT_DIR$/http/src/main/java/com/bc/http/NMHttpServer.java" />
-        <option value="$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/polling/utils/PingResponse.java" />
-        <option value="$PROJECT_DIR$/actors/src/main/test/com/bc/actorsystem/polling/messages/PingResponseMsgTest.java" />
-        <option value="$PROJECT_DIR$/actors/src/main/test/com/bc/actorsystem/polling/utils/PingPairTest.java" />
-        <option value="$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/polling/utils/PingPair.java" />
-        <option value="$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/polling/messages/PingResponseMsg.java" />
-        <option value="$PROJECT_DIR$/actors/src/main/test/com/bc/actorsystem/polling/messages/PingPairMsgTest.java" />
+        <option value="$PROJECT_DIR$/nm-actorsystem/src/main/java/actorsystem/polling/utils/PingPair.java" />
+        <option value="$PROJECT_DIR$/nm-common/src/main/java/properties/SysProps.java" />
+        <option value="$PROJECT_DIR$/nm-common/src/main/java/properties/ActorPaths.java" />
+        <option value="$PROJECT_DIR$/nm-common/src/main/java/properties/ActorNames.java" />
+        <option value="$PROJECT_DIR$/nm-common/src/main/java/com/bc/nm/properties/ActorNames.java" />
+        <option value="$PROJECT_DIR$/nm-actorsystem/src/main/java/actorsystem/polling/actors/SitePollingActor.java" />
+        <option value="$PROJECT_DIR$/nm-actorsystem/src/main/java/actorsystem/modules/ActorSystemModule.java" />
+        <option value="$PROJECT_DIR$/nm-actorsystem/src/main/java/actorsystem/polling/messages/PingResponseMsg.java" />
+        <option value="$PROJECT_DIR$/nm-actorsystem/pom.xml" />
+        <option value="$PROJECT_DIR$/nm-actorsystem/src/test/java/actorsystem/polling/utils/PingPairTest.java" />
+        <option value="$PROJECT_DIR$/nm-actorsystem/src/test/java/actorsystem/polling/messages/PingResponseMsgTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/actors/pom.xml" />
-        <option value="$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/polling/messages/RequestResponseHistoryMsg.java" />
-        <option value="$PROJECT_DIR$/http/src/main/java/com/bc/http/resource/NetResource.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/bc/common/properties/ActorPaths.java" />
-        <option value="$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/polling/actors/SitePollingActor.java" />
-        <option value="$PROJECT_DIR$/actors/src/main/test/com/bc/actorsystem/polling/actors/SitePollingActorTest.java" />
       </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="C:/maven" />
-        <option name="outputLevel" value="WARN" />
-      </MavenGeneralSettings>
-    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -236,157 +104,62 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="actors" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="actors" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="http" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="http" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="NetMonitor" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="NetMonitor" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="678" />
-    <option name="y" value="-17" />
-    <option name="width" value="1057" />
-    <option name="height" value="663" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="NetStatREST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NetStatREST" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NetStatREST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NetStatREST" type="462c0819:PsiDirectoryNode" />
-              <item name="actors" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NetStatREST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NetStatREST" type="462c0819:PsiDirectoryNode" />
-              <item name="actors" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NetStatREST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NetStatREST" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NetStatREST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NetStatREST" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NetStatREST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NetStatREST" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NetStatREST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NetStatREST" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NetStatREST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NetStatREST" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NetStatREST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NetStatREST" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="NetStat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NetStat" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553734085392" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554164170972" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="C:/dev/Summer2013APE" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NetStatUpgrade" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.bc.actorsystem.polling.actors" />
-      <recent name="com.bc.actorsystem.polling.utils" />
-      <recent name="com.bc.actorsystem.polling.messages" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="Z:\projects\NetMonitor\http\src\main" />
-      <recent name="Z:\projects\NetMonitor\core\src\main\resources" />
+      <recent name="actorsystem.polling.messages" />
+      <recent name="actorsystem.polling.utils" />
+      <recent name="java.com.jc" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="Z:\projects\NetMonitor\actors\src\main\resources" />
-      <recent name="C:\Users\Kelvinzero\IdeaProjects\NetMonitor\actorsystem\src\main\java" />
-      <recent name="C:\Users\Kelvinzero\IdeaProjects\NetMonitor\actorsystem\src\main\java\polling" />
-      <recent name="C:\Users\Kelvinzero\IdeaProjects\NetMonitor\actorsystem" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kelvinzero\IdeaProjects\NetStat\nm-common\src\main\java" />
+      <recent name="C:\Users\Kelvinzero\IdeaProjects\NetStat\nm-actorsystem\src\main\resources" />
+      <recent name="C:\Users\Kelvinzero\IdeaProjects\NetStat\nm-actorsystem\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -401,467 +174,202 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SitePollingActorTest.testSitePollingActorResponse">
-    <configuration name="PingPairMsgTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="actors" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bc.actorsystem.polling.messages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bc.actorsystem.polling.messages" />
-      <option name="MAIN_CLASS_NAME" value="com.bc.actorsystem.polling.messages.PingPairMsgTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PingPairMsgTest.getResponses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="actors" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bc.actorsystem.polling.messages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bc.actorsystem.polling.messages" />
-      <option name="MAIN_CLASS_NAME" value="com.bc.actorsystem.polling.messages.PingPairMsgTest" />
-      <option name="METHOD_NAME" value="getResponses" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PingPairTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="actors" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bc.actorsystem.polling.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bc.actorsystem.polling.utils" />
-      <option name="MAIN_CLASS_NAME" value="com.bc.actorsystem.polling.utils.PingPairTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PingPairTest.invalidParameterException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="actors" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bc.actorsystem.polling.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bc.actorsystem.polling.utils" />
-      <option name="MAIN_CLASS_NAME" value="com.bc.actorsystem.polling.utils.PingPairTest" />
-      <option name="METHOD_NAME" value="invalidParameterException" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SitePollingActorTest.testSitePollingActorResponse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="actors" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bc.actorsystem.polling.actors.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bc.actorsystem.polling.actors" />
-      <option name="MAIN_CLASS_NAME" value="com.bc.actorsystem.polling.actors.SitePollingActorTest" />
-      <option name="METHOD_NAME" value="testSitePollingActorResponse" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.SitePollingActorTest.testSitePollingActorResponse" />
-        <item itemvalue="JUnit.PingPairMsgTest" />
-        <item itemvalue="JUnit.PingPairMsgTest.getResponses" />
-        <item itemvalue="JUnit.PingPairTest" />
-        <item itemvalue="JUnit.PingPairTest.invalidParameterException" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b563f671-bca3-4892-abd7-f68ddcc2fa96" name="Default Changelist" comment="" />
-      <created>1540059801078</created>
+      <changelist id="e1b65d5c-6ead-4112-b07d-f1993d4406a6" name="Default Changelist" comment="" />
+      <created>1553919131943</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1540059801078</updated>
-      <workItem from="1540059822038" duration="15288000" />
-      <workItem from="1540076087892" duration="13188000" />
-      <workItem from="1540097297740" duration="19271000" />
-      <workItem from="1540155565459" duration="13559000" />
-      <workItem from="1540255615812" duration="7604000" />
-      <workItem from="1540418721838" duration="2013000" />
-      <workItem from="1540939073918" duration="1504000" />
-      <workItem from="1541545753438" duration="2110000" />
-      <workItem from="1542243083095" duration="3320000" />
-      <workItem from="1542325290164" duration="17423000" />
-      <workItem from="1544586429492" duration="928000" />
-      <workItem from="1548895113561" duration="1114000" />
-      <workItem from="1551841864889" duration="1195000" />
-      <workItem from="1551844073404" duration="337000" />
-      <workItem from="1551844443552" duration="3346000" />
-      <workItem from="1551848544479" duration="216000" />
-      <workItem from="1551889442105" duration="2341000" />
-      <workItem from="1552952869121" duration="39000" />
-      <workItem from="1552953057332" duration="778000" />
-      <workItem from="1553129392467" duration="743000" />
-      <workItem from="1553367280896" duration="2000" />
-      <workItem from="1553383465879" duration="1956000" />
-      <workItem from="1553636085493" duration="9468000" />
-      <workItem from="1553722376356" duration="2451000" />
-      <workItem from="1553728112035" duration="5962000" />
+      <updated>1553919131943</updated>
+      <workItem from="1553919135776" duration="2234000" />
+      <workItem from="1554158127757" duration="603000" />
+      <workItem from="1554161636809" duration="2581000" />
     </task>
-    <task id="LOCAL-00001" summary="Added module. Checking Jenkins build.">
-      <created>1540081790407</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1540081790408</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Finished SitePollingAct to ping websites at an interval. App now starts with datte.">
-      <created>1540165799352</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1540165799352</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Finished SitePollingAct to ping websites at an interval. App now starts with datte.">
-      <created>1540166044998</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1540166044998</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Added logging log4j">
-      <created>1540231284756</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1540231284756</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Added logging log4j">
-      <created>1540338580634</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1540338580634</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Converted timoutpair to factory">
-      <created>1542416264376</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1542416264376</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Set up unit tests for PingPairMsg and PingPair classes">
-      <created>1553730384652</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1553730384652</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="SitePollingActorTest_testSitePollingActorResponse - 2019.03.27 at 18h 41m 25s.xml">
-      <configuration name="SitePollingActorTest.testSitePollingActorResponse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SitePollingActorTest_testSitePollingActorResponse - 2019.03.27 at 18h 41m 38s.xml">
-      <configuration name="SitePollingActorTest.testSitePollingActorResponse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SitePollingActorTest_testSitePollingActorResponse - 2019.03.27 at 18h 41m 59s.xml">
-      <configuration name="SitePollingActorTest.testSitePollingActorResponse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SitePollingActorTest_testSitePollingActorResponse - 2019.03.27 at 18h 42m 26s.xml">
-      <configuration name="SitePollingActorTest.testSitePollingActorResponse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SitePollingActorTest_testSitePollingActorResponse - 2019.03.27 at 18h 43m 10s.xml">
-      <configuration name="SitePollingActorTest.testSitePollingActorResponse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SitePollingActorTest_testSitePollingActorResponse - 2019.03.27 at 18h 43m 49s.xml">
-      <configuration name="SitePollingActorTest.testSitePollingActorResponse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SitePollingActorTest_testSitePollingActorResponse - 2019.03.27 at 18h 44m 46s.xml">
-      <configuration name="SitePollingActorTest.testSitePollingActorResponse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SitePollingActorTest_testSitePollingActorResponse - 2019.03.27 at 18h 45m 08s.xml">
-      <configuration name="SitePollingActorTest.testSitePollingActorResponse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SitePollingActorTest_testSitePollingActorResponse - 2019.03.27 at 18h 46m 00s.xml">
-      <configuration name="SitePollingActorTest.testSitePollingActorResponse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SitePollingActorTest_testSitePollingActorResponse - 2019.03.27 at 18h 47m 13s.xml">
-      <configuration name="SitePollingActorTest.testSitePollingActorResponse" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126156000" />
+    <option name="totallyTimeSpent" value="5418000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.23134328" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23347548" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4760312" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.41248608" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.329718" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.4916388" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.329718" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32998884" />
-      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.12783661" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-      <window_info anchor="right" id="Maven" order="10" visible="true" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2238806" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26681128" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27313265" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.329718" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286334" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.16791044" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32329988" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added module. Checking Jenkins build." />
-    <MESSAGE value="Finished SitePollingAct to ping websites at an interval. App now starts with datte." />
-    <MESSAGE value="Added logging log4j" />
-    <MESSAGE value="Converted timoutpair to factory" />
-    <MESSAGE value="Set up unit tests for PingPairMsg and PingPair classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set up unit tests for PingPairMsg and PingPair classes" />
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rest/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/inet-status/src/main/java/polling.java" />
-    <entry file="file://$PROJECT_DIR$/common/src/log4j.properties" />
-    <entry file="file://$PROJECT_DIR$/actorsystem/src/main/java/polling/utils/CircularLIFO.java" />
-    <entry file="file://$PROJECT_DIR$/actorsystem/src/main/java/com/bc/actorsystem/polling/utils/NetPing.java" />
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bc/core/app/modules/CreateActorSystem.java" />
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/bc/common/properties/modules/ActorSystemInterface.java" />
-    <entry file="file://$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/modules/ActorSystemComponent.java" />
-    <entry file="file://$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/StartActorSystem.java" />
-    <entry file="file://$PROJECT_DIR$/actors/src/main/resources.properties" />
-    <entry file="file://$PROJECT_DIR$/actors/src/main/resources/log4j.properties">
+    <entry file="file://$PROJECT_DIR$/core/src/test/java/com/jc/MyClassTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        <state relative-caret-position="84">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
-    <entry file="file://$PROJECT_DIR$/http/src/main/java/com/bc/http/modules/HTTPServerModule.java" />
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/bc/common/properties/ActorNames.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/jc/MyClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bc/core/app/modules/NetMonitorComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/modules/ActorSystemModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="51" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-server/2.27/jersey-server-2.27.jar!/org/glassfish/jersey/server/model/internal/AbstractJavaResourceMethodDispatcher.class" />
-    <entry file="file://$PROJECT_DIR$/http/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/http/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-server/2.27/jersey-server-2.27.jar!/org/glassfish/jersey/server/ResourceConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/http/src/main/java/com/bc/http/modules/ServerComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/bc/common/properties/SysProps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/polling/messages/PingResponseMsgTest.java" />
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bc/core/app/NetApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="140">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        <state relative-caret-position="981">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.4.0/junit-platform-commons-1.4.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+    <entry file="file://$PROJECT_DIR$/nm-actorsystem/src/main/java/actorsystem/polling/messages/RequestResponseHistoryMsg.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-actorsystem/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-common/src/main/java/com/bc/nm/properties/SysProps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="303" selection-start-line="303" selection-end-line="303" />
+        <state relative-caret-position="56">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar!/org/apache/commons/collections4/queue/CircularFifoQueue.class">
+    <entry file="file://$PROJECT_DIR$/nm-actorsystem/src/main/java/actorsystem/modules/ActorSystemModule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="753">
-          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        <state relative-caret-position="84">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/polling/utils/PingPair.java">
+    <entry file="file://$PROJECT_DIR$/nm-actorsystem/src/main/java/actorsystem/polling/actors/SitePollingActor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1432">
+          <caret line="5" column="38" selection-start-line="5" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/actors/src/main/test/com/bc/actorsystem/polling/utils/PingPairTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/nm-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/actors/src/main/test/com/bc/actorsystem/polling/messages/PingPairMsgTest.java">
+    <entry file="file://$PROJECT_DIR$/nm-common/src/main/java/com/bc/nm/properties/ActorPaths.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2632">
-          <caret line="94" column="42" selection-start-line="94" selection-start-column="42" selection-end-line="94" selection-end-column="42" />
+        <state>
+          <caret column="28" selection-start-column="8" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/pom.xml">
+    <entry file="file://$PROJECT_DIR$/nm-common/src/main/java/com/bc/nm/properties/ActorNames.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        <state relative-caret-position="56">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/http/src/main/java/com/bc/http/NMHttpServer.java">
+    <entry file="file://$PROJECT_DIR$/nm-actorsystem/src/main/java/actorsystem/polling/utils/PingPair.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="114" column="10" selection-start-line="114" selection-start-column="10" selection-end-line="114" selection-end-column="10" />
+        <state relative-caret-position="112">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-actorsystem/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-actorsystem/src/main/java/actorsystem/polling/messages/PingResponseMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-actorsystem/src/test/java/actorsystem/polling/utils/PingPairTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-actorsystem/src/test/java/actorsystem/polling/messages/PingResponseMsgTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="97" column="1" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -870,86 +378,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="712">
-          <caret line="172" column="17" selection-start-line="172" selection-start-column="17" selection-end-line="172" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/polling/messages/RequestResponseHistoryMsg.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actors/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/http/src/main/java/com/bc/http/resource/NetResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/bc/common/properties/ActorPaths.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.12/2.5.19/akka-actor_2.12-2.5.19.jar!/akka/actor/Actor.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.12/2.5.19/akka-actor_2.12-2.5.19.jar!/akka/japi/pf/UnitCaseStatement.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/polling/actors/SitePollingActor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-812">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1124#1125#0" expanded="true" />
-            <element signature="e#1206#1207#0" expanded="true" />
-            <element signature="e#1814#1815#0" expanded="true" />
-            <element signature="e#1853#1854#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actors/src/main/java/com/bc/actorsystem/polling/messages/PingResponseMsg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-214">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actors/src/main/test/com/bc/actorsystem/polling/actors/SitePollingActorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="36" column="89" selection-start-line="36" selection-start-column="89" selection-end-line="36" selection-end-column="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-          </folding>
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -1005,12 +435,24 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>actors</last-edited>
+          <last-edited>core</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
                 <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -1029,8 +471,5 @@
         </settings>
       </state>
     </states>
-  </component>
-  <component name="mavenExecuteGoalHistory">
-    <option value="" />
   </component>
 </project>
