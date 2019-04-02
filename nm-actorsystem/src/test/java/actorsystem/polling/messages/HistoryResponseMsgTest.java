@@ -9,19 +9,19 @@ import java.time.Instant;
 import java.util.Arrays;
 import java.util.Random;
 
-class PingResponseMsgTest {
-    static final long MAX_PING = 10000;
-    static PingResponseMsg prm;
-    static Random rand;
-    static Instant pingTime;
-    static PingPair[] responses;
-    static PingPair[] timeouts;
-    static  int responsesSize;
-    static int timeoutsSize;
-    static CircularFifoQueue<PingPair> responsesQueue;
-    static CircularFifoQueue<PingPair> timeoutsQueue;
-    static int responsesQueueSize ;
-    static int timeoutsQueueSize;
+class HistoryResponseMsgTest {
+    private static final long MAX_PING = 10000;
+    private static HistoryResponseMsg prm;
+    private static Random rand;
+    private static Instant pingTime;
+    private static PingPair[] responses;
+    private static PingPair[] timeouts;
+    private static int responsesSize;
+    private static int timeoutsSize;
+    private static CircularFifoQueue<PingPair> responsesQueue;
+    private static CircularFifoQueue<PingPair> timeoutsQueue;
+    private static int responsesQueueSize;
+    private static int timeoutsQueueSize;
 
     static void setupMsgQueues(){
         pingTime = Instant.now();
@@ -41,7 +41,7 @@ class PingResponseMsgTest {
             timeouts[i] = PingPair.create(pingTime, Math.abs(10 + rand.nextLong() % MAX_PING));
             timeoutsQueue.add(PingPair.create(timeouts[i].getTime(), timeouts[i].getPing()));
         }
-        prm = PingResponseMsg.create(responsesQueue, timeoutsQueue, null);
+        prm = HistoryResponseMsg.create(responsesQueue, timeoutsQueue);
     }
 
     @Test
@@ -89,7 +89,7 @@ class PingResponseMsgTest {
     @Test
     void testEquals(){
         setupMsgQueues();
-        PingResponseMsg prm2 = PingResponseMsg.create(responsesQueue, responsesQueue, null);
+        HistoryResponseMsg prm2 = HistoryResponseMsg.create(responsesQueue, responsesQueue);
         Assertions.assertNotEquals(prm, prm2);
         Assertions.assertEquals(prm, prm);
     }

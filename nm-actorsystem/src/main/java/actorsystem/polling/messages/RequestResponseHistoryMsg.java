@@ -7,7 +7,7 @@ import java.time.Instant;
 
 public class RequestResponseHistoryMsg implements Serializable {
 
-    private Instant ts_start;
+    private Instant tsStart;
     private ActorRef sender;
 
     public static RequestResponseHistoryMsg create(ActorRef sender){
@@ -16,11 +16,11 @@ public class RequestResponseHistoryMsg implements Serializable {
 
     private RequestResponseHistoryMsg(ActorRef sender){
         this.sender = sender;
-        ts_start = Instant.now();
+        tsStart = Instant.now();
     }
 
     public Instant getStart() {
-        return ts_start;
+        return tsStart;
     }
 
     public ActorRef getSender() {

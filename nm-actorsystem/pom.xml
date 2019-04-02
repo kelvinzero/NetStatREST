@@ -10,26 +10,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>nm-actorsystem</artifactId>
+    <version>${project.parent.version}</version>
 
     <dependencies>
-
         <!-- Akka -->
         <dependency>
             <groupId>com.typesafe.akka</groupId>
             <artifactId>akka-actor_2.12</artifactId>
             <version>2.5.19</version>
-        </dependency>
-
-        <!-- Dagger -->
-        <dependency>
-            <groupId>com.google.dagger</groupId>
-            <artifactId>dagger</artifactId>
-            <version>2.18</version>
-        </dependency>
-        <dependency>
-            <groupId>com.google.dagger</groupId>
-            <artifactId>dagger-compiler</artifactId>
-            <version>2.18</version>
         </dependency>
 
         <!-- Apache commons -->
@@ -39,11 +27,20 @@
             <version>4.2</version>
         </dependency>
 
+        <!-- Test -->
+        <dependency>
+            <groupId>com.typesafe.akka</groupId>
+            <artifactId>akka-testkit_2.12</artifactId>
+            <version>2.5.21</version>
+            <scope>test</scope>
+        </dependency>
+
+
         <!-- Project modules -->
         <dependency>
             <groupId>com.bc.jc</groupId>
             <artifactId>nm-common</artifactId>
-            <version>1.1-SNAPSHOT</version>
+            <version>${project.parent.version}</version>
             <scope>compile</scope>
         </dependency>
 

@@ -1,11 +1,12 @@
 package actorsystem.polling.actors;
 
 
-import actorsystem.polling.messages.PingResponseMsg;
+import actorsystem.polling.messages.HistoryResponseMsg;
 import actorsystem.polling.messages.RequestResponseHistoryMsg;
 import actorsystem.polling.utils.PingPair;
 import akka.actor.AbstractActor;
 import akka.actor.Cancellable;
+import akka.actor.Props;
 import org.apache.commons.collections4.queue.CircularFifoQueue;
 import org.apache.log4j.Logger;
 import scala.concurrent.duration.Duration;
@@ -19,13 +20,29 @@ import static com.bc.nm.properties.SysProps.*;
 
 public class SitePollingActor extends AbstractActor{
 
-    private final static Logger LOG = Logger.getLogger(SitePollingActor.class);
-    private final static String POLL_SERVER = "POLL_SERVER";
+    private static final Logger LOG = Logger.getLogger(SitePollingActor.class);
+    private static final String POLL_SERVER = "POLL_SERVER";
     private CircularFifoQueue<PingPair> responses;
     private CircularFifoQueue<PingPair> timeouts;
     private Cancellable checkScheduler;
 
-    {
+
+    public SitePollingActor(){
+        responses = new CircularFifoQueue<>(HISTORY_SIZE);
+        timeouts = new CircularFifoQueue<>(HISTORY_SIZE );
+        LOG.info("Started actor SitePollingActor");
+    }
+
+    public static Props props() {
+        return Props.create(SitePollingActor.class, SitePollingActor::new);
+    }
+
+    @Override
+    public void preStart() throws Exception {
+        startScheduler();
+    }
+
+    private void startScheduler() {
         checkScheduler = getContext().getSystem().scheduler().schedule(
                 Duration.create(0, TimeUnit.MILLISECONDS),
                 Duration.create(POLLING_DELAY, TimeUnit.MILLISECONDS),
@@ -36,24 +53,22 @@ public class SitePollingActor extends AbstractActor{
         );
     }
 
-    public SitePollingActor(){
-        responses = new CircularFifoQueue<>(HISTORY_SIZE);
-        timeouts = new CircularFifoQueue<>(HISTORY_SIZE );
-        LOG.info("Started actor SitePollingActor");
-    }
-
     @Override
     public AbstractActor.Receive createReceive() {
         return receiveBuilder()
-                .match(RequestResponseHistoryMsg.class, this::hangleResponseHistoryRequestMsg)
+                .match(RequestResponseHistoryMsg.class, msg -> handleResponseHistoryRequestMsg())
                 .matchEquals(POLL_SERVER, tc -> pollServer())
                 .build();
     }
 
-    private void hangleResponseHistoryRequestMsg(RequestResponseHistoryMsg msg){
-        sender().tell(PingResponseMsg.create(responses, timeouts, context()), self());
+    private void handleResponseHistoryRequestMsg() {
+        sender().tell(HistoryResponseMsg.create(responses, timeouts), self());
     }
 
+    @Override
+    public void postStop() {
+        checkScheduler.cancel();
+    }
 
     private void pollServer(){
         PingPair pair = PingPair.create(Instant.now(), sendPing());

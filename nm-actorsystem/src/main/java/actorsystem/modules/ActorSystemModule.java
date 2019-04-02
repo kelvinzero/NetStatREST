@@ -9,10 +9,13 @@ import static com.bc.nm.properties.ActorPaths.SYSTEM_NAME;
 @Module()
 public class ActorSystemModule {
 
+    private ActorSystemModule() {
+    }
+
     private static ActorSystem actorSystem;
 
     @Provides
-    public ActorSystem provideActorSystem(){
+    public static ActorSystem provideActorSystem() {
         if(actorSystem == null){
             actorSystem = ActorSystem.create(SYSTEM_NAME);
         }
