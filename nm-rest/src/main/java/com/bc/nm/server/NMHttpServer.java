@@ -30,11 +30,9 @@ public class NMHttpServer {
     private static final int HTTP_PORT = 2088;
     private static final String ROOT_PATH = "/netstat";
 
-    /**
-     * Empty method for dagger injection
-     */
     @Inject
     public NMHttpServer() {
+        // Empty method for dagger injection
     }
 
     public void start() {

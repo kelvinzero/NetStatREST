@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1b65d5c-6ead-4112-b07d-f1993d4406a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nm-application/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nm-rest/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nm-rest/src/main/java/com/bc/nm/modules/ServerComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nm-rest/src/main/java/com/bc/nm/resource/NetResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nm-rest/src/main/java/com/bc/nm/server/NMHttpServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-actorsystem/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nm-actorsystem/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-actorsystem/src/main/java/actorsystem/modules/ActorSystemModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/nm-actorsystem/src/main/java/com/bc/nm/actorsystem/modules/modules/ActorSystemModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-actorsystem/src/main/java/actorsystem/polling/actors/SitePollingActor.java" beforeDir="false" afterPath="$PROJECT_DIR$/nm-actorsystem/src/main/java/com/bc/nm/actorsystem/modules/polling/actors/SitePollingActor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-actorsystem/src/main/java/actorsystem/polling/messages/HistoryResponseMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/nm-actorsystem/src/main/java/com/bc/nm/actorsystem/modules/polling/messages/HistoryResponseMsg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-actorsystem/src/main/java/actorsystem/polling/messages/RequestResponseHistoryMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/nm-actorsystem/src/main/java/com/bc/nm/actorsystem/modules/polling/messages/RequestResponseHistoryMsg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-actorsystem/src/main/java/actorsystem/polling/utils/PingPair.java" beforeDir="false" afterPath="$PROJECT_DIR$/nm-actorsystem/src/main/java/com/bc/nm/actorsystem/modules/polling/utils/PingPair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-actorsystem/src/test/java/actorsystem/polling/actors/SitePollingActorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/nm-actorsystem/src/test/java/com/bc/nm/actorsystem/modules/polling/actors/SitePollingActorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-actorsystem/src/test/java/actorsystem/polling/messages/HistoryResponseMsgTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/nm-actorsystem/src/test/java/com/bc/nm/actorsystem/modules/polling/messages/HistoryResponseMsgTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-actorsystem/src/test/java/actorsystem/polling/utils/PingPairTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/nm-actorsystem/src/test/java/com/bc/nm/actorsystem/modules/polling/utils/PingPairTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-actorsystem/src/main/java/com/bc/nm/actorsystem/modules/parent/NSParentAct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-application/src/main/java/com/bc/nm/application/NetApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-application/src/main/java/com/bc/nm/application/modules/NetMonitorComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-rest/src/main/resources/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nm-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nm-application/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nm-rest/src/main/java/com/bc/nm/server/NMHttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/nm-rest/src/main/java/com/bc/nm/server/NMHttpServer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,33 +28,52 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/nm-common/src/main/java/com/bc/nm/properties/ActorNames.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="617">
-              <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+            <state relative-caret-position="56">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nm-application/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nm-rest/pom.xml">
+        <entry file="file://$PROJECT_DIR$/nm-application/src/main/java/com/bc/nm/application/NetApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+            <state relative-caret-position="253">
+              <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#627#628#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nm-rest/src/main/java/com/bc/nm/server/NMHttpServer.java">
+        <entry file="file://$PROJECT_DIR$/nm-actorsystem/src/main/java/com/bc/nm/actorsystem/modules/parent/NSParentAct.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="65" column="11" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="11" />
+            <state relative-caret-position="280">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nm-rest/src/main/java/com/bc/nm/resource/NetResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="458">
+              <caret line="48" column="11" selection-start-line="45" selection-start-column="10" selection-end-line="48" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,7 +81,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nm-actorsystem/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
+            <state relative-caret-position="700">
               <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
             </state>
           </provider>
@@ -81,8 +92,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -112,7 +123,6 @@
         <option value="$PROJECT_DIR$/nm-actorsystem/src/test/java/actorsystem/polling/messages/PingResponseMsgTest.java" />
         <option value="$PROJECT_DIR$/nm-common/pom.xml" />
         <option value="$PROJECT_DIR$/nm-actorsystem/src/test/java/actorsystem/polling/actors/SitePollingActorTest.java" />
-        <option value="$PROJECT_DIR$/nm-common/src/main/java/com/bc/nm/properties/ActorNames.java" />
         <option value="$PROJECT_DIR$/nm-common/src/main/java/com/bc/nm/properties/ActorPaths.java" />
         <option value="$PROJECT_DIR$/nm-actorsystem/src/main/java/actorsystem/polling/utils/PingPair.java" />
         <option value="$PROJECT_DIR$/nm-actorsystem/src/main/java/actorsystem/polling/messages/RequestResponseHistoryMsg.java" />
@@ -124,11 +134,18 @@
         <option value="$PROJECT_DIR$/nm-rest/pom.xml" />
         <option value="$PROJECT_DIR$/nm-rest/src/main/java/com/bc/nm/modules/ServerComponent.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/nm-rest/src/main/java/com/bc/nm/resource/NetResource.java" />
         <option value="$PROJECT_DIR$/nm-actorsystem/pom.xml" />
         <option value="$PROJECT_DIR$/nm-actorsystem/src/main/java/com/bc/nm/server/NMHttpServer.java" />
         <option value="$PROJECT_DIR$/nm-actorsystem/src/main/java/com/bc/nm/actorsystem/modules/modules/ActorSystemModule.java" />
+        <option value="$PROJECT_DIR$/nm-rest/src/main/java/com/bc/nm/resource/NetResource.java" />
+        <option value="$PROJECT_DIR$/nm-rest/src/main/resources/index.html" />
         <option value="$PROJECT_DIR$/nm-rest/src/main/java/com/bc/nm/server/NMHttpServer.java" />
+        <option value="$PROJECT_DIR$/nm-common/src/main/java/com/bc/nm/properties/SysPropUtil.java" />
+        <option value="$PROJECT_DIR$/nm-common/src/main/java/com/bc/nm/properties/ActorNames.java" />
+        <option value="$PROJECT_DIR$/nm-application/src/main/java/com/bc/nm/application/modules/NetMonitorComponent.java" />
+        <option value="$PROJECT_DIR$/nm-application/pom.xml" />
+        <option value="$PROJECT_DIR$/nm-application/src/main/java/com/bc/nm/application/NetApp.java" />
+        <option value="$PROJECT_DIR$/nm-actorsystem/src/main/java/com/bc/nm/actorsystem/modules/parent/NSParentAct.java" />
       </list>
     </option>
   </component>
@@ -168,6 +185,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,25 +214,7 @@
             <path>
               <item name="NetStatRESTREFAC" type="b2602c69:ProjectViewProjectNode" />
               <item name="NetStatRESTREFAC" type="462c0819:PsiDirectoryNode" />
-              <item name="nm-rest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NetStatRESTREFAC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NetStatRESTREFAC" type="462c0819:PsiDirectoryNode" />
-              <item name="nm-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NetStatRESTREFAC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NetStatRESTREFAC" type="462c0819:PsiDirectoryNode" />
-              <item name="nm-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NetStatRESTREFAC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NetStatRESTREFAC" type="462c0819:PsiDirectoryNode" />
-              <item name="nm-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="nm-actorsystem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -222,34 +222,33 @@
             <path>
               <item name="NetStatRESTREFAC" type="b2602c69:ProjectViewProjectNode" />
               <item name="NetStatRESTREFAC" type="462c0819:PsiDirectoryNode" />
-              <item name="nm-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="nm-actorsystem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nm" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NetStatRESTREFAC" type="b2602c69:ProjectViewProjectNode" />
               <item name="NetStatRESTREFAC" type="462c0819:PsiDirectoryNode" />
-              <item name="nm-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="nm-actorsystem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nm" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554170341679" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554419214249" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -270,24 +269,25 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Kelvinzero\IdeaProjects\NetStatRESTREFAC\nm-rest\src\main\java" />
-      <recent name="C:\Users\Kelvinzero\IdeaProjects\NetStatRESTREFAC\nm-rest\server" />
-      <recent name="C:\Users\Kelvinzero\IdeaProjects\NetStatRESTREFAC\nm-rest" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.bc.nm" />
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kelvinzero\IdeaProjects\NetStatRESTREFAC\nm-application\src\main\java\com\bc\nm\application" />
+      <recent name="C:\Users\Kelvinzero\IdeaProjects\NetStat\nm-common\src\main\java" />
+      <recent name="C:\Users\Kelvinzero\IdeaProjects\NetStat\nm-actorsystem\src\main\resources" />
+      <recent name="C:\Users\Kelvinzero\IdeaProjects\NetStat\nm-actorsystem\src\main\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.bc.nm.server" />
       <recent name="com.bc.nm.resource" />
       <recent name="com.bc.nm.modules" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Kelvinzero\IdeaProjects\NetStat\nm-common\src\main\java" />
-      <recent name="C:\Users\Kelvinzero\IdeaProjects\NetStat\nm-actorsystem\src\main\resources" />
-      <recent name="C:\Users\Kelvinzero\IdeaProjects\NetStat\nm-actorsystem\src\main\java" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kelvinzero\IdeaProjects\NetStatRESTREFAC\nm-rest\src\main\java" />
+      <recent name="C:\Users\Kelvinzero\IdeaProjects\NetStatRESTREFAC\nm-rest\server" />
+      <recent name="C:\Users\Kelvinzero\IdeaProjects\NetStatRESTREFAC\nm-rest" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -302,7 +302,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SitePollingActorTest.createAndMsg">
+  <component name="RunManager" selected="Application.NetApp">
+    <configuration name="NetApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bc.nm.application.NetApp" />
+      <module name="nm-application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bc.nm.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SitePollingActorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="nm-actorsystem" />
       <extension name="coverage">
@@ -336,6 +349,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NetApp" />
         <item itemvalue="JUnit.SitePollingActorTest.createAndMsg" />
         <item itemvalue="JUnit.SitePollingActorTest" />
       </list>
@@ -355,7 +369,8 @@
       <workItem from="1554158127757" duration="603000" />
       <workItem from="1554161636809" duration="2581000" />
       <workItem from="1554165058215" duration="3281000" />
-      <workItem from="1554168448695" duration="1889000" />
+      <workItem from="1554168448695" duration="2297000" />
+      <workItem from="1554416278223" duration="2933000" />
     </task>
     <task id="LOCAL-00001" summary="Added tests and dependencies for actor. Fixed sonarlint complaints">
       <created>1554169382350</created>
@@ -364,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554169382350</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Moving rest server / refactoring">
+      <created>1554170524140</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554170524140</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -385,24 +407,22 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10588000" />
+    <option name="totallyTimeSpent" value="13929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23880596" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16044776" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="SonarLint" weight="0.32998884" />
-      <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2909699" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21293199" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -413,16 +433,18 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.46265328" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="SonarLint" order="13" weight="0.32998884" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.21908316" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
@@ -461,7 +483,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added tests and dependencies for actor" />
     <MESSAGE value="Added tests and dependencies for actor. Fixed sonarlint complaints" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added tests and dependencies for actor. Fixed sonarlint complaints" />
+    <MESSAGE value="Moving rest server" />
+    <MESSAGE value="Moving rest server / refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moving rest server / refactoring" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -486,13 +510,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nm-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nm-actorsystem/src/test/java/com/bc/nm/actorsystem/modules/polling/actors/SitePollingActorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -510,13 +527,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nm-common/src/main/java/com/bc/nm/properties/ActorNames.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -561,47 +571,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nm-application/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nm-rest/src/main/java/com/bc/nm/modules/ServerComponent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nm-rest/src/main/java/com/bc/nm/resource/NetResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nm-actorsystem/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nm-actorsystem/src/main/java/com/bc/nm/actorsystem/modules/modules/ActorSystemModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -625,10 +598,115 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/nm-actorsystem/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-rest/src/main/java/com/bc/nm/resource/NetResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="48" column="11" selection-start-line="45" selection-start-column="10" selection-end-line="48" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-rest/src/main/resources/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-common/src/main/java/com/bc/nm/properties/SysPropUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-application/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-actorsystem/src/main/java/com/bc/nm/actorsystem/modules/modules/ActorSystemModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="63" column="31" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-application/src/main/java/com/bc/nm/application/modules/NetMonitorComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/nm-rest/src/main/java/com/bc/nm/server/NMHttpServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="65" column="11" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="11" />
+        <state relative-caret-position="168">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-common/src/main/java/com/bc/nm/properties/ActorNames.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-application/src/main/java/com/bc/nm/application/NetApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-actorsystem/src/main/java/com/bc/nm/actorsystem/modules/parent/NSParentAct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

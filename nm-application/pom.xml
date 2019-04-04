@@ -12,4 +12,20 @@
     <artifactId>nm-application</artifactId>
 
 
+    <dependencies>
+        <dependency>
+            <groupId>com.bc.jc</groupId>
+            <artifactId>nm-actorsystem</artifactId>
+            <version>${project.parent.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.bc.jc</groupId>
+            <artifactId>nm-rest</artifactId>
+            <version>${project.parent.version}</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
+
 </project>
