@@ -1,5 +1,4 @@
 [![Build Status](https://travis-ci.com/kelvinzero/NetStatREST.svg?branch=master)](https://travis-ci.com/kelvinzero/NetStatREST)
-[![Coverage Status](https://coveralls.io/repos/github/kelvinzero/NetStatREST/badge.svg?branch=master)](https://coveralls.io/github/kelvinzero/NetStatREST?branch=master)
 
 <h2>Netstat REST network monitor project </h2>
 <br><br>
