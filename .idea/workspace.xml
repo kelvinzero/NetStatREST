@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1b65d5c-6ead-4112-b07d-f1993d4406a6" name="Default Changelist" comment="" />
+    <list default="true" id="e1b65d5c-6ead-4112-b07d-f1993d4406a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/nm-application/src/main/java/com/bc/nm/application/actor/NSBaseAct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-lanmon/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-lanmon/src/main/java/com/bc/nm/lanmon/actors/LanMonitorAct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nm-application/src/main/java/com/bc/nm/application/NetApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/nm-application/src/main/java/com/bc/nm/application/NetApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nm-internetmon/src/test/java/com/bc/nm/internetmon/messages/HistoryResponseMsgTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/nm-internetmon/src/test/java/com/bc/nm/internetmon/messages/HistoryResponseMsgTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/core/target/" />
@@ -14,6 +23,7 @@
     <ignored path="$PROJECT_DIR$/nm-internetmon/target/" />
     <ignored path="$PROJECT_DIR$/nm-internetmon/${project.build.directory}/classes/" />
     <ignored path="$PROJECT_DIR$/nm-internetmon/${project.build.directory}/test-classes/" />
+    <ignored path="$PROJECT_DIR$/nm-lanmon/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,31 +36,73 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.travis.yml">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="1422">
+              <caret line="148" column="21" selection-start-line="148" selection-start-column="21" selection-end-line="148" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/nm-lanmon/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="147" column="21" selection-start-line="147" selection-start-column="21" selection-end-line="147" selection-end-column="21" />
+            <state relative-caret-position="364">
+              <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nm-lanmon/src/main/java/com/bc/nm/lanmon/actors/LanMonitorAct.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="16" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#298#299#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.mdown">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="28">
-                <caret line="1" selection-start-line="1" selection-end-line="1" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/nm-application/src/main/java/com/bc/nm/application/NetApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nm-application/src/main/java/com/bc/nm/application/actor/NSBaseAct.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#193#194#0" expanded="true" />
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#668#669#0" expanded="true" />
+                <element signature="e#759#760#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nm-internetmon/src/main/java/com/bc/nm/internetmon/actors/SitePollingActor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-572">
+              <caret line="37" column="75" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="37" selection-end-column="75" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,8 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/core/src/main/java/com/jc/MyClass.java" />
-        <option value="$PROJECT_DIR$/core/src/test/java/com/jc/MyClassTest.java" />
         <option value="$PROJECT_DIR$/core/pom.xml" />
         <option value="$PROJECT_DIR$/nm-common/src/main/java/properties/SysProps.java" />
         <option value="$PROJECT_DIR$/nm-common/src/main/java/properties/ActorPaths.java" />
@@ -116,7 +166,6 @@
         <option value="$PROJECT_DIR$/nm-internetmon/src/test/java/com/bc/nm/internetmon/actors/SitePollingActorTest.java" />
         <option value="$PROJECT_DIR$/nm-rest/src/main/java/com/bc/nm/modules/ServerComponent.java" />
         <option value="$PROJECT_DIR$/nm-application/src/main/java/com/bc/nm/application/modules/NetMonitorComponent.java" />
-        <option value="$PROJECT_DIR$/nm-internetmon/src/test/java/com/bc/nm/internetmon/messages/HistoryResponseMsgTest.java" />
         <option value="$PROJECT_DIR$/nm-rest/src/main/java/com/bc/nm/resource/NetResource.java" />
         <option value="$PROJECT_DIR$/nm-internetmon/src/test/java/com/bc/nm/internetmon/utils/PingPairTest.java" />
         <option value="$PROJECT_DIR$/nm-rest/pom.xml" />
@@ -124,12 +173,17 @@
         <option value="$PROJECT_DIR$/nm-common/pom.xml" />
         <option value="$PROJECT_DIR$/nm-actorsystem/pom.xml" />
         <option value="$PROJECT_DIR$/nm-application/pom.xml" />
-        <option value="$PROJECT_DIR$/nm-application/src/main/java/com/bc/nm/application/NetApp.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.coveralls.yaml" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/README.mdown" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/nm-internetmon/src/test/java/com/bc/nm/internetmon/messages/HistoryResponseMsgTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/nm-lanmon/pom.xml" />
+        <option value="$PROJECT_DIR$/nm-lanmon/src/main/java/com/bc/nm/lanmon/actors/LanmonAct.java" />
+        <option value="$PROJECT_DIR$/nm-lanmon/src/main/java/com/bc/nm/lanmon/actors/LanMonitorAct.java" />
+        <option value="$PROJECT_DIR$/nm-application/src/main/java/com/bc/nm/application/actor/NSBaseAct.java" />
+        <option value="$PROJECT_DIR$/nm-application/src/main/java/com/bc/nm/application/NetApp.java" />
       </list>
     </option>
   </component>
@@ -180,6 +234,51 @@
               <item name="NetStatREST" type="b2602c69:ProjectViewProjectNode" />
               <item name="NetStatREST" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="NetStatREST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NetStatREST" type="462c0819:PsiDirectoryNode" />
+              <item name="nm-application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NetStatREST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NetStatREST" type="462c0819:PsiDirectoryNode" />
+              <item name="nm-application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NetStatREST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NetStatREST" type="462c0819:PsiDirectoryNode" />
+              <item name="nm-application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NetStatREST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NetStatREST" type="462c0819:PsiDirectoryNode" />
+              <item name="nm-application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NetStatREST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NetStatREST" type="462c0819:PsiDirectoryNode" />
+              <item name="nm-application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NetStatREST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NetStatREST" type="462c0819:PsiDirectoryNode" />
+              <item name="nm-application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="actor" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -214,27 +313,27 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Kelvinzero\IdeaProjects\NetStatRESTREFAC\nm-rest\src\main\java" />
-      <recent name="C:\Users\Kelvinzero\IdeaProjects\NetStatRESTREFAC\nm-rest\server" />
-      <recent name="C:\Users\Kelvinzero\IdeaProjects\NetStatRESTREFAC\nm-rest" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.bc.nm.internetmon" />
       <recent name="com.bc.nm.actorsystem.actorbase" />
       <recent name="com.bc.nm" />
       <recent name="" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.bc.nm.server" />
-      <recent name="com.bc.nm.resource" />
-      <recent name="com.bc.nm.modules" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Kelvinzero\IdeaProjects\NetStatRESTREFAC\nm-application\src\main\java\com\bc\nm\application" />
       <recent name="C:\Users\Kelvinzero\IdeaProjects\NetStat\nm-common\src\main\java" />
       <recent name="C:\Users\Kelvinzero\IdeaProjects\NetStat\nm-actorsystem\src\main\resources" />
       <recent name="C:\Users\Kelvinzero\IdeaProjects\NetStat\nm-actorsystem\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bc.nm.server" />
+      <recent name="com.bc.nm.resource" />
+      <recent name="com.bc.nm.modules" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kelvinzero\IdeaProjects\NetStatRESTREFAC\nm-rest\src\main\java" />
+      <recent name="C:\Users\Kelvinzero\IdeaProjects\NetStatRESTREFAC\nm-rest\server" />
+      <recent name="C:\Users\Kelvinzero\IdeaProjects\NetStatRESTREFAC\nm-rest" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -324,7 +423,7 @@
       <workItem from="1554935019056" duration="2275000" />
       <workItem from="1554939385986" duration="2610000" />
       <workItem from="1554942282971" duration="1688000" />
-      <workItem from="1554945145350" duration="2441000" />
+      <workItem from="1554945145350" duration="3814000" />
     </task>
     <task id="LOCAL-00001" summary="Added tests and dependencies for actor. Fixed sonarlint complaints">
       <created>1554169382350</created>
@@ -438,7 +537,21 @@
       <option name="project" value="LOCAL" />
       <updated>1554947500506</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="removing cobertura/coveralls">
+      <created>1554947616436</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1554947616436</updated>
+    </task>
+    <task id="LOCAL-00018" summary="removing more garbage codecov hook refs">
+      <created>1554947768170</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1554947768170</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -459,7 +572,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24684000" />
+    <option name="totallyTimeSpent" value="26057000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -547,7 +660,9 @@
     <MESSAGE value="trying codecov badge setup" />
     <MESSAGE value="trying coverall badge setup" />
     <MESSAGE value="cobertura is a pos" />
-    <option name="LAST_COMMIT_MESSAGE" value="cobertura is a pos" />
+    <MESSAGE value="removing cobertura/coveralls" />
+    <MESSAGE value="removing more garbage codecov hook refs" />
+    <option name="LAST_COMMIT_MESSAGE" value="removing more garbage codecov hook refs" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -614,31 +729,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nm-actorsystem/src/main/java/com/bc/nm/actorsystem/actorbase/NSParentAct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" selection-start-column="33" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nm-actorsystem/src/main/java/com/bc/nm/actorsystem/modules/ActorSystemModule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nm-internetmon/src/main/java/com/bc/nm/internetmon/actors/SitePollingActor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-756">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -672,27 +766,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nm-internetmon/src/test/java/com/bc/nm/internetmon/messages/HistoryResponseMsgTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nm-rest/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nm-internetmon/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -727,13 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nm-application/src/main/java/com/bc/nm/application/NetApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nm-rest/src/main/java/com/bc/nm/resource/NetResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -765,20 +835,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="147" column="21" selection-start-line="147" selection-start-column="21" selection-end-line="147" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.mdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -786,6 +842,107 @@
             <caret line="1" selection-start-line="1" selection-end-line="1" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-internetmon/src/test/java/com/bc/nm/internetmon/messages/HistoryResponseMsgTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-983">
+          <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1422">
+          <caret line="148" column="21" selection-start-line="148" selection-start-column="21" selection-end-line="148" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-internetmon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-lanmon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.12/2.5.19/akka-actor_2.12-2.5.19.jar!/akka/actor/AbstractActor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-lanmon/src/main/java/com/bc/nm/lanmon/actors/LanMonitorAct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-actorsystem/src/main/java/com/bc/nm/actorsystem/actorbase/NSParentAct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-internetmon/src/main/java/com/bc/nm/internetmon/actors/SitePollingActor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-572">
+          <caret line="37" column="75" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="37" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-application/src/main/java/com/bc/nm/application/actor/NSBaseAct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-application/src/main/java/com/bc/nm/application/NetApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

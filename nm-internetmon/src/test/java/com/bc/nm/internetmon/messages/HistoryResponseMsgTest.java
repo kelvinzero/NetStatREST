@@ -23,6 +23,9 @@ class HistoryResponseMsgTest {
     private static int responsesQueueSize;
     private static int timeoutsQueueSize;
 
+    /**
+     * Test circular queue expected functionality and PingPair functions
+     */
     static void setupMsgQueues(){
         pingTime = Instant.now();
         rand = new Random(System.currentTimeMillis());

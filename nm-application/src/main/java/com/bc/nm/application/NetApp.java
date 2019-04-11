@@ -1,15 +1,12 @@
 package com.bc.nm.application;
 
 import akka.actor.ActorSystem;
-import akka.actor.Props;
+import com.bc.nm.application.actor.NSMasterAct;
 import com.bc.nm.application.modules.DaggerNetMonitorComponent;
-import com.bc.nm.internetmon.actors.SitePollingActor;
 import com.bc.nm.server.NMHttpServer;
 import org.apache.log4j.Logger;
 
 import javax.inject.Inject;
-
-import static com.bc.nm.properties.ActorNames.SITE_POLLING_ACTOR;
 
 public class NetApp {
 
@@ -26,7 +23,7 @@ public class NetApp {
             NMHttpServer httpServer) {
         LOG.info("Starting NetMonitor app");
         LOG.info("Starting actors");
-        actorSystem.actorOf(Props.create(SitePollingActor.class), SITE_POLLING_ACTOR);
+        actorSystem.actorOf(NSMasterAct.props());
         LOG.info("Starting HTTP server");
         this.httpServer = httpServer;
     }

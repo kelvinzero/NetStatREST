@@ -15,6 +15,7 @@
         <module>nm-application</module>
         <module>nm-rest</module>
         <module>nm-internetmon</module>
+        <module>nm-lanmon</module>
     </modules>
 
     <dependencyManagement>
