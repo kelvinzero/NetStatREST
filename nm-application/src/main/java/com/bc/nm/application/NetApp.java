@@ -24,7 +24,6 @@ public class NetApp {
         LOG.info("Starting NetMonitor app");
         LOG.info("Starting actors");
         actorSystem.actorOf(NSMasterAct.props());
-        LOG.info("Starting HTTP server");
         this.httpServer = httpServer;
     }
 

@@ -31,7 +31,7 @@ public class SitePollingActor extends NSParentAct {
     private SitePollingActor() {
         responses = new CircularFifoQueue<>(SysProps.HISTORY_SIZE);
         timeouts = new CircularFifoQueue<>(SysProps.HISTORY_SIZE);
-        LOG.info("Started actor SitePollingActor");
+        LOG.info("Starting SitePollingActor");
     }
 
     public static Props props() {
@@ -39,7 +39,7 @@ public class SitePollingActor extends NSParentAct {
     }
 
     @Override
-    public void preStart() throws Exception {
+    public void preStart() {
         startScheduler();
     }
 
