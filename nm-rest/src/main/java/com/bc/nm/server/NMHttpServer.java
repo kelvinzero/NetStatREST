@@ -1,7 +1,7 @@
 package com.bc.nm.server;
 
-import com.bc.nm.modules.DaggerServerComponent;
-import com.bc.nm.modules.ServerComponent;
+import com.bc.nm.modules.DaggerRestModuleComponent;
+import com.bc.nm.modules.RestModuleComponent;
 import com.google.common.base.Charsets;
 import org.apache.log4j.Logger;
 import org.apache.log4j.lf5.util.StreamUtils;
@@ -63,8 +63,8 @@ public class NMHttpServer {
         try {
             ResourceConfig resourceConfig = new ResourceConfig();
 
-            final ServerComponent component = DaggerServerComponent.create();
-            PropertyDescriptor[] propertyDescriptors = Introspector.getBeanInfo(ServerComponent.class).getPropertyDescriptors();
+            final RestModuleComponent component = DaggerRestModuleComponent.create();
+            PropertyDescriptor[] propertyDescriptors = Introspector.getBeanInfo(RestModuleComponent.class).getPropertyDescriptors();
             Set<Object> resources = new HashSet<>();
             for (PropertyDescriptor propertyDescriptor : propertyDescriptors) {
                 Object resource = propertyDescriptor.getReadMethod().invoke(component);

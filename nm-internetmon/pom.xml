@@ -11,9 +11,7 @@
 
     <artifactId>nm-internetmon</artifactId>
 
-
     <dependencies>
-
         <!-- Apache commons -->
         <dependency>
             <groupId>org.apache.commons</groupId>

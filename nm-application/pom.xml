@@ -11,8 +11,14 @@
 
     <artifactId>nm-application</artifactId>
 
-
     <dependencies>
+        <!-- Akka -->
+        <dependency>
+            <groupId>com.typesafe.akka</groupId>
+            <artifactId>akka-actor_2.12</artifactId>
+        </dependency>
+
+        <!-- Project dependencies -->
         <dependency>
             <groupId>com.bc.jc</groupId>
             <artifactId>nm-actorsystem</artifactId>
@@ -23,6 +29,18 @@
             <groupId>com.bc.jc</groupId>
             <artifactId>nm-rest</artifactId>
             <version>${project.parent.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.bc.jc</groupId>
+            <artifactId>nm-internetmon</artifactId>
+            <version>1.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.bc.jc</groupId>
+            <artifactId>nm-common</artifactId>
+            <version>1.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>

@@ -22,9 +22,7 @@ class PingPairTest {
 
     @Test
     void invalidParameterException(){
-        Assertions.assertThrows(InvalidParameterException.class, () -> {
-            PingPair.create(time, -1);
-        });
+        Assertions.assertThrows(InvalidParameterException.class, () -> PingPair.create(time, -1));
     }
 
     @Test

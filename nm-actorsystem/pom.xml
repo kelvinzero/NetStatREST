@@ -10,7 +10,6 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>nm-actorsystem</artifactId>
-    <version>${project.parent.version}</version>
 
     <dependencies>
         <!-- Akka -->
@@ -18,9 +17,6 @@
             <groupId>com.typesafe.akka</groupId>
             <artifactId>akka-actor_2.12</artifactId>
         </dependency>
-
-
-
 
         <!-- Project modules -->
         <dependency>

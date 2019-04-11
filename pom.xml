@@ -18,7 +18,6 @@
     </modules>
 
     <dependencyManagement>
-
         <dependencies>
             <!-- Akka -->
             <dependency>
@@ -27,6 +26,7 @@
                 <version>2.5.19</version>
             </dependency>
 
+            <!-- Grizzly http server container -->
             <dependency>
                 <groupId>org.glassfish.jersey.containers</groupId>
                 <artifactId>jersey-container-grizzly2-http</artifactId>
@@ -52,6 +52,7 @@
                 <version>2.18</version>
             </dependency>
 
+            <!-- Jersey/Dagger inject -->
             <dependency>
                 <groupId>org.glassfish.jersey.inject</groupId>
                 <artifactId>jersey-hk2</artifactId>
@@ -76,11 +77,6 @@
                 <artifactId>log4j</artifactId>
                 <version>1.2.17</version>
             </dependency>
-            <dependency>
-                <groupId>org.slf4j</groupId>
-                <artifactId>slf4j-api</artifactId>
-                <version>1.7.25</version>
-            </dependency>
 
             <!-- Test -->
             <dependency>
@@ -95,7 +91,6 @@
                 <version>5.3.1</version>
                 <scope>test</scope>
             </dependency>
-
         </dependencies>
     </dependencyManagement>
 
@@ -129,10 +124,6 @@
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
         </dependency>
     </dependencies>
 

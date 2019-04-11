@@ -37,17 +37,9 @@ public class NetResource {
         StringBuilder sb = new StringBuilder();
         Future<Object> future = Patterns.ask(actorSystem.actorSelection(ActorPaths.SITEPINGER_ACT_PATH), RequestResponseHistoryMsg.create(null), timeout);
         HistoryResponseMsg response = (HistoryResponseMsg) Await.result(future, timeout.duration());
-//        int pingCount = response.getResponsesArray().length;
-//        long pingAvg = 0;
-
         sb.append("<h2>Server points to 8.8.8.8</h2>\n");
         sb.append("<div><div  style=\"display: inline-block\"><table>");
         sb.append("<tr><th>Ping</th><th>Time</th><th>Average ping</th><tr>");
-//        for (PingPair pair : response.getResponsesArray()) {
-//            // sb.append(String.format("<tr><td>%d</td><td>%s</td><td>%f</td><tr>", pair.getPing(), pair.getTime().toString(), response.getAvg()));
-//            // pingAvg += pair.getPing();
-//        }
-        // pingAvg /= pingCount;
         sb.append("</table></div>&nbsp&nbsp&nbsp");
         sb.append("</div>");
         return sb.toString();
