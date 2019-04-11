@@ -1,4 +1,4 @@
-package com.bc.nm.actorsystem.modules.parent;
+package com.bc.nm.actorsystem.actorbase;
 
 import akka.actor.AbstractActor;
 import akka.actor.Props;
@@ -13,6 +13,4 @@ public class NSParentAct extends AbstractActor {
     public Receive createReceive() {
         return null;
     }
-
-
 }

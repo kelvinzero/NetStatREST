@@ -1,4 +1,4 @@
-package com.bc.nm.actorsystem.modules.polling.utils;
+package com.bc.nm.internetmon.utils;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;

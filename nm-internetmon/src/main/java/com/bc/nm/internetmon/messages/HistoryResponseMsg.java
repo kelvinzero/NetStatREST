@@ -1,6 +1,6 @@
-package com.bc.nm.actorsystem.modules.polling.messages;
+package com.bc.nm.internetmon.messages;
 
-import com.bc.nm.actorsystem.modules.polling.utils.PingPair;
+import com.bc.nm.internetmon.utils.PingPair;
 import org.apache.commons.collections4.queue.CircularFifoQueue;
 
 import java.io.Serializable;

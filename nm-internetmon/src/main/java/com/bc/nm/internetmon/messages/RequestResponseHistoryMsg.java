@@ -1,4 +1,4 @@
-package com.bc.nm.actorsystem.modules.polling.messages;
+package com.bc.nm.internetmon.messages;
 
 import akka.actor.ActorRef;
 

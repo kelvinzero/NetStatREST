@@ -2,8 +2,8 @@ package com.bc.nm.application;
 
 import akka.actor.ActorSystem;
 import akka.actor.Props;
-import com.bc.nm.actorsystem.modules.polling.actors.SitePollingActor;
 import com.bc.nm.application.modules.DaggerNetMonitorComponent;
+import com.bc.nm.internetmon.actors.SitePollingActor;
 import com.bc.nm.server.NMHttpServer;
 import org.apache.log4j.Logger;
 
@@ -13,7 +13,7 @@ import static com.bc.nm.properties.ActorNames.SITE_POLLING_ACTOR;
 
 public class NetApp {
 
-    private final static Logger LOG = Logger.getLogger(NetApp.class);
+    private static final Logger LOG = Logger.getLogger(NetApp.class);
     private NMHttpServer httpServer;
 
     public static void main(String[] args) {

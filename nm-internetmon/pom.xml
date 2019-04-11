@@ -9,27 +9,33 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>nm-rest</artifactId>
+    <artifactId>nm-internetmon</artifactId>
+
 
     <dependencies>
 
-        <!-- Grizzly http server -->
+        <!-- Apache commons -->
         <dependency>
-            <groupId>org.glassfish.jersey.containers</groupId>
-            <artifactId>jersey-container-grizzly2-http</artifactId>
-            <version>2.27</version>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-collections4</artifactId>
+        </dependency>
+
+        <!-- Test -->
+        <dependency>
+            <groupId>com.typesafe.akka</groupId>
+            <artifactId>akka-testkit_2.12</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <scope>test</scope>
         </dependency>
 
         <!-- Project dependencies -->
         <dependency>
             <groupId>com.bc.jc</groupId>
             <artifactId>nm-actorsystem</artifactId>
-            <version>${project.parent.version}</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.bc.jc</groupId>
-            <artifactId>nm-internetmon</artifactId>
             <version>${project.parent.version}</version>
             <scope>compile</scope>
         </dependency>

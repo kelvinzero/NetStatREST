@@ -9,6 +9,7 @@
         <module name="nm-actorsystem" />
         <module name="nm-application" />
         <module name="nm-common" />
+        <module name="nm-internetmon" />
         <module name="nm-rest" />
       </profile>
     </annotationProcessing>

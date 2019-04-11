@@ -1,12 +1,14 @@
-package com.bc.nm.actorsystem.modules.polling.actors;
+package com.bc.nm.internetmon.actors;
 
 
 import akka.actor.AbstractActor;
 import akka.actor.Cancellable;
 import akka.actor.Props;
-import com.bc.nm.actorsystem.modules.polling.messages.HistoryResponseMsg;
-import com.bc.nm.actorsystem.modules.polling.messages.RequestResponseHistoryMsg;
-import com.bc.nm.actorsystem.modules.polling.utils.PingPair;
+import com.bc.nm.actorsystem.actorbase.NSParentAct;
+import com.bc.nm.internetmon.messages.HistoryResponseMsg;
+import com.bc.nm.internetmon.messages.RequestResponseHistoryMsg;
+import com.bc.nm.internetmon.utils.PingPair;
+import com.bc.nm.properties.SysProps;
 import org.apache.commons.collections4.queue.CircularFifoQueue;
 import org.apache.log4j.Logger;
 import scala.concurrent.duration.Duration;
@@ -16,9 +18,8 @@ import java.net.InetAddress;
 import java.time.Instant;
 import java.util.concurrent.TimeUnit;
 
-import static com.bc.nm.properties.SysProps.*;
 
-public class SitePollingActor extends AbstractActor{
+public class SitePollingActor extends NSParentAct {
 
     private static final Logger LOG = Logger.getLogger(SitePollingActor.class);
     private static final String POLL_SERVER = "POLL_SERVER";
@@ -27,9 +28,9 @@ public class SitePollingActor extends AbstractActor{
     private Cancellable checkScheduler;
 
 
-    public SitePollingActor(){
-        responses = new CircularFifoQueue<>(HISTORY_SIZE);
-        timeouts = new CircularFifoQueue<>(HISTORY_SIZE );
+    private SitePollingActor() {
+        responses = new CircularFifoQueue<>(SysProps.HISTORY_SIZE);
+        timeouts = new CircularFifoQueue<>(SysProps.HISTORY_SIZE);
         LOG.info("Started actor SitePollingActor");
     }
 
@@ -45,7 +46,7 @@ public class SitePollingActor extends AbstractActor{
     private void startScheduler() {
         checkScheduler = getContext().getSystem().scheduler().schedule(
                 Duration.create(0, TimeUnit.MILLISECONDS),
-                Duration.create(POLLING_DELAY, TimeUnit.MILLISECONDS),
+                Duration.create(SysProps.POLLING_DELAY, TimeUnit.MILLISECONDS),
                 getSelf(),
                 POLL_SERVER,
                 getContext().dispatcher(),
@@ -80,7 +81,7 @@ public class SitePollingActor extends AbstractActor{
         long startTime = System.currentTimeMillis();
         long endTime;
         try {
-            InetAddress pingAddress = InetAddress.getByName(SERVER_IP);
+            InetAddress pingAddress = InetAddress.getByName(SysProps.SERVER_IP);
             if(pingAddress.isReachable(5000)){
                 endTime = System.currentTimeMillis();
                 return endTime-startTime;
