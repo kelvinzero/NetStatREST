@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1b65d5c-6ead-4112-b07d-f1993d4406a6" name="Default Changelist" comment="added travis for build">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="e1b65d5c-6ead-4112-b07d-f1993d4406a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,7 +27,7 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
@@ -40,11 +38,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+        <entry file="file://$PROJECT_DIR$/README.mdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="56">
-                <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
+              <first_editor relative-caret-position="112">
+                <caret line="4" selection-start-line="4" selection-end-line="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -167,18 +165,18 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="NetStatRESTREFAC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NetStatRESTREFAC" type="462c0819:PsiDirectoryNode" />
+              <item name="NetStatREST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NetStatREST" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -318,6 +316,7 @@
       <workItem from="1554935019056" duration="2275000" />
       <workItem from="1554939385986" duration="2610000" />
       <workItem from="1554942282971" duration="1688000" />
+      <workItem from="1554945145350" duration="568000" />
     </task>
     <task id="LOCAL-00001" summary="Added tests and dependencies for actor. Fixed sonarlint complaints">
       <created>1554169382350</created>
@@ -361,7 +360,28 @@
       <option name="project" value="LOCAL" />
       <updated>1554943797475</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added travis build image">
+      <created>1554945194198</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1554945194198</updated>
+    </task>
+    <task id="LOCAL-00008" summary="updating markdown">
+      <created>1554945271269</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1554945271269</updated>
+    </task>
+    <task id="LOCAL-00009" summary="updating markdown">
+      <created>1554945449921</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1554945449921</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -382,13 +402,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22243000" />
+    <option name="totallyTimeSpent" value="22811000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2531983" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25586355" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -464,7 +484,9 @@
     <MESSAGE value="Refactored modules and dependencies" />
     <MESSAGE value="Cleaned up dependencies" />
     <MESSAGE value="added travis for build" />
-    <option name="LAST_COMMIT_MESSAGE" value="added travis for build" />
+    <MESSAGE value="added travis build image" />
+    <MESSAGE value="updating markdown" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating markdown" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -689,11 +711,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/README.mdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="56">
-            <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
+          <first_editor relative-caret-position="112">
+            <caret line="4" selection-start-line="4" selection-end-line="4" />
           </first_editor>
           <second_editor />
         </state>
