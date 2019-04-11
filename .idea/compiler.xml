@@ -6,14 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="actors" />
-        <module name="common" />
-        <module name="core" />
-        <module name="http" />
+        <module name="nm-actorsystem" />
+        <module name="nm-application" />
+        <module name="nm-common" />
+        <module name="nm-internetmon" />
+        <module name="nm-rest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="rest" target="1.5" />
+      <module name="core" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
