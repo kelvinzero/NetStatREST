@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1b65d5c-6ead-4112-b07d-f1993d4406a6" name="Default Changelist" comment="Refactored modules and dependencies">
+    <list default="true" id="e1b65d5c-6ead-4112-b07d-f1993d4406a6" name="Default Changelist" comment="Cleaned up dependencies">
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-actorsystem/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nm-actorsystem/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nm-application/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nm-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-internetmon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nm-internetmon/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-internetmon/src/test/java/com/bc/nm/internetmon/utils/PingPairTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/nm-internetmon/src/test/java/com/bc/nm/internetmon/utils/PingPairTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-rest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nm-rest/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-rest/src/main/java/com/bc/nm/modules/ServerComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/nm-rest/src/main/java/com/bc/nm/modules/RestModuleComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-rest/src/main/java/com/bc/nm/resource/NetResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/nm-rest/src/main/java/com/bc/nm/resource/NetResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-rest/src/main/java/com/bc/nm/server/NMHttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/nm-rest/src/main/java/com/bc/nm/server/NMHttpServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,8 +24,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -155,56 +157,6 @@
               <item name="NetStatRESTREFAC" type="b2602c69:ProjectViewProjectNode" />
               <item name="NetStatRESTREFAC" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="NetStatRESTREFAC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NetStatRESTREFAC" type="462c0819:PsiDirectoryNode" />
-              <item name="nm-actorsystem" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NetStatRESTREFAC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NetStatRESTREFAC" type="462c0819:PsiDirectoryNode" />
-              <item name="nm-rest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NetStatRESTREFAC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NetStatRESTREFAC" type="462c0819:PsiDirectoryNode" />
-              <item name="nm-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NetStatRESTREFAC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NetStatRESTREFAC" type="462c0819:PsiDirectoryNode" />
-              <item name="nm-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NetStatRESTREFAC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NetStatRESTREFAC" type="462c0819:PsiDirectoryNode" />
-              <item name="nm-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NetStatRESTREFAC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NetStatRESTREFAC" type="462c0819:PsiDirectoryNode" />
-              <item name="nm-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NetStatRESTREFAC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NetStatRESTREFAC" type="462c0819:PsiDirectoryNode" />
-              <item name="nm-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nm" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -212,10 +164,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554941897949" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554941921900" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/nm-internetmon/src/test/java/com/bc/nm/internetmon" />
@@ -345,7 +298,8 @@
       <workItem from="1554764702442" duration="50000" />
       <workItem from="1554765791972" duration="311000" />
       <workItem from="1554935019056" duration="2275000" />
-      <workItem from="1554939385986" duration="2400000" />
+      <workItem from="1554939385986" duration="2610000" />
+      <workItem from="1554942282971" duration="1191000" />
     </task>
     <task id="LOCAL-00001" summary="Added tests and dependencies for actor. Fixed sonarlint complaints">
       <created>1554169382350</created>
@@ -375,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554940808161</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Cleaned up dependencies">
+      <created>1554941934200</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1554941934200</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -396,12 +357,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20345000" />
+    <option name="totallyTimeSpent" value="21746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25053304" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2531983" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -410,7 +372,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34225196" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34225196" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -421,7 +383,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.46265328" />
-      <window_info anchor="bottom" id="SonarLint" order="13" weight="0.40802675" />
+      <window_info anchor="bottom" id="SonarLint" order="13" visible="true" weight="0.40802675" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -475,7 +437,8 @@
     <MESSAGE value="Moving rest server / refactoring" />
     <MESSAGE value="Added rest server and core app classes" />
     <MESSAGE value="Refactored modules and dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored modules and dependencies" />
+    <MESSAGE value="Cleaned up dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up dependencies" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -692,6 +655,9 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
